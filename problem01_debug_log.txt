@@ -18,3 +18,13 @@ Breakpoint 1, main ()
 6	    printf("Aditya Sunil");
 Continuing.
 [Inferior 1 (process 13780) exited normally]
+Breakpoint 1 at 0x40146e: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set01\problem01.c, line 6.
+Starting program: c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set01\problem01.exe 
+[New Thread 20448.0x47f8]
+[New Thread 20448.0x4d38]
+
+Breakpoint 1, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set01\problem01.c:6
+6	    printf("Aditya Sunil");
+Continuing.
+[Inferior 1 (process 20448) exited normally]
