@@ -3,6 +3,6 @@
 #include <stdio.h>
 int main()
 {
-    printf("Aditya Sunil");
+    printf("Aditya Sunil")
     return 0;
 }
