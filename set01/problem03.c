@@ -31,5 +31,5 @@ int add(int a, int b)
 
 void output(int a,int b,int sum)
 {
-    printf("Sum of %d+%d is %d",a,b,sum);
+    printf("Sum of %d and %d is %d",a,b,sum);
 }
