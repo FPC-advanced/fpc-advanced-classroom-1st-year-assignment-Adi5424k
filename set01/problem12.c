@@ -14,11 +14,20 @@ Complex add_n_complex(int n, Complex c[n]);
 void output(int n, Complex c[n], Complex result);
 
 int main()
-{}
+{
+    int n;
+    n=get_n();
+    Complex C[n],sum;
+    input_n_complex(n,C);
+    sum=add_n_complex(n,C);
+    output(n,C,sum);
+    return 0;
+}
+
 int get_n()
 {
 	int n;
-	printf("Enter number");
+	printf("Enter size: ");
 	scanf("%d",&n);
 	return n;
 }
@@ -52,14 +61,19 @@ Complex add_n_complex(int n, Complex c[n])
 	int i;
 	Complex sum;
 	sum.imaginary=0;sum.real=0;
-	for(i=0;i<n;i=i+2)
+	for(i=0;i<n;i++)
 	{
-		sum=add_complex(c[i],c[i+1]);
+		sum=add_complex(sum,c[i]);
 	}
 	return sum;	
 }
 
 void output(int n, Complex c[n], Complex result)
 {
-	
+	int i;
+    for(i=0;i<n-1;i++)
+    {
+        printf("%.f+%.fi + ",c[i].real,c[i].imaginary);
+    }
+    printf("%.f+%.fi is %.f+%.fi",c[n-1].real,c[n-1].imaginary,result.real,result.imaginary);
 }
