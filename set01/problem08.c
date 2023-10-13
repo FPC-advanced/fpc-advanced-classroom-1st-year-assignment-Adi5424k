@@ -52,5 +52,4 @@ void output(int n, int a[n],int sum)
         printf("%d+",a[i]);
     }
     printf("%d is %d",a[n-1],sum);
-
 }
