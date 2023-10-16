@@ -24,14 +24,10 @@ int input_side()
 
 int check_scalene(int a,int b,int c)
 {
-    if(a==b || a==c)
+    if(a==b || a==c || b==c)
     {
         return 0;
     }   
-    else if(b==c)
-    {
-        return 0;
-    }
     else
     {
         return 1;
