@@ -41,3 +41,12 @@ c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
 PS C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k> 36
 36
 PS C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k> clear
+PS C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k> git add .
+warning: in the working copy of 'set02/problem05_session.txt', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k> git commit -m "committed 10/17/2023, 4:20:51 PM"
+[main 369563d] committed 10/17/2023, 4:20:51 PM
+ 1 file changed, 7 insertions(+)
+PS C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k> git push
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Adi5424k.git
+   75d5abe..369563d  main -> main
