@@ -22,10 +22,13 @@ int input()
 
 int find_gcd(int a, int b)
 {
-    int gcd=0;
-    for(int i=2;a%i==0 && b%i==0;i++)
+    int gcd;
+    for(int i=1;i<=a && i<=b;i++)
     {
-        gcd=(gcd*i);
+        if(a%i==0 && b%i==0)
+        {
+            gcd=i;
+        }
     }
     return gcd;
 }
