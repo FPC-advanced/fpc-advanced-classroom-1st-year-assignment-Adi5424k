@@ -40,3 +40,4 @@ PS C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-
 c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem05.exe
 PS C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k> 36
 36
+PS C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k> clear
