@@ -20,9 +20,8 @@ void input_string(char *a)
 
 void str_reverse(char *str,char*rev_str)
 {
-    int len=0;
-    while(str[len]!='\0')
-    {len++;}
+    int len;
+    for(len=0;str[len]!='\0';len++);
     for(int i=0;i<len;i++)
     {
         rev_str[i]=str[(len-1)-i];
