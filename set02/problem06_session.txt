@@ -23,3 +23,8 @@ PS C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-
 
 PS C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02> git push
 
+PS C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231026164533
+**********************
