@@ -22,3 +22,10 @@ PS C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-
 PS C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02> c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem05.exe
 
 PS C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02> gdb problem05
+
+PS C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231026155848
+**********************
