@@ -61,7 +61,6 @@ int sum_composite_numbers(int n, int a[n])
         if(x==1)
         {
             sum+=a[i];
-            break;
         }
     }
     return sum;    
