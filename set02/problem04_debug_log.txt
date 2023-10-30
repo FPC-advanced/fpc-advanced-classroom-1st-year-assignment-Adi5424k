@@ -79,3 +79,105 @@ Breakpoint 1, main ()
     at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem04.c:11
 11	    n=input_array_size();
 $1 = 6422356
+12	    int a[n];
+$2 = 3
+
+Breakpoint 3, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem04.c:13
+13	    input_array(n,a);
+
+Breakpoint 4, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem04.c:14
+14	    sum=sum_composite_numbers(n,a);
+$3 = 0x61fee8
+$4 = 5
+15	    output(sum);
+$5 = 10
+16	    return 0;
+17	}
+0x00401288 in __register_frame_info ()
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
+No symbol "sum" in current context.
+12	    int a[n];
+13	    input_array(n,a);
+14	    sum=sum_composite_numbers(n,a);
+15	    output(sum);
+16	    return 0;
+17	}
+18	
+19	int input_array_size()
+20	{
+21	    int x;
+22	    printf("Enter array size: ");
+23	    scanf("%d",&x);
+24	    return x;
+25	}
+26	
+27	void input_array(int n, int a[n])
+28	{
+29	    for(int i=0;i<n;i++)
+30	    {
+31	        scanf("%d",&a[i]);
+32	    }
+33	}
+34	
+35	int sum_composite_numbers(int n, int a[n])
+36	{
+37	    int sum=0;
+38	    for(int i=0;i<n;i++)
+39	    {
+40	        if(a[i]>3)
+41	        {
+42	            for(int j=2;j<a[i];j++)
+43	            {
+44	                if(a[i]%j==0)
+45	                {
+46	                    sum+=a[i];
+47	                    break;
+48	                }
+49	            }
+50	        }
+51	    }
+52	    return sum;    
+53	}
+54	
+55	void output(int sum)
+56	{
+57	    printf("%d",sum);
+58	}A debugging session is active.
+
+	Inferior 1 [process 14008] will be killed.
+
+Quit anyway? (y or n) Please answer y or n.
+A debugging session is active.
+
+	Inferior 1 [process 14008] will be killed.
+
+Quit anyway? (y or n) Please answer y or n.
+A debugging session is active.
+
+	Inferior 1 [process 14008] will be killed.
+
+Quit anyway? (y or n) Please answer y or n.
+A debugging session is active.
+
+	Inferior 1 [process 14008] will be killed.
+
+Quit anyway? (y or n) Please answer y or n.
+A debugging session is active.
+
+	Inferior 1 [process 14008] will be killed.
+
+Quit anyway? (y or n) Please answer y or n.
+A debugging session is active.
+
+	Inferior 1 [process 14008] will be killed.
+
+Quit anyway? (y or n) Please answer y or n.
+A debugging session is active.
+
+	Inferior 1 [process 14008] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
