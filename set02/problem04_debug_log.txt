@@ -71,3 +71,11 @@ Make breakpoint pending on future shared library load? (y or [n]) Num     Type  
                                            at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem04.c:11
 Breakpoint 3 at 0x4014c9: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem04.c, line 13.
 Breakpoint 4 at 0x4014db: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem04.c, line 14.
+Starting program: C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02/./problem04.exe 
+[New Thread 14008.0x456c]
+[New Thread 14008.0x3c58]
+
+Breakpoint 1, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem04.c:11
+11	    n=input_array_size();
+$1 = 6422356
