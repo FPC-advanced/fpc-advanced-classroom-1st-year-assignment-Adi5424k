@@ -2,4 +2,72 @@
 
 GDB debug log -   10/16/2023, 10:45:37 AM
 
-  
+  1	#include <stdio.h>
+2	
+3	int input_array_size();
+4	void input_array(int n, int a[n]);
+5	int sum_composite_numbers(int n, int a[n]);
+6	void output(int sum);
+7	
+8	int main()
+9	{
+10	    int n,sum=0;
+11	    n=input_array_size();
+12	    int a[n];
+13	    input_array(n,a);
+14	    sum=sum_composite_numbers(n,a);
+15	    output(sum);
+16	    return 0;
+17	}
+18	
+19	int input_array_size()
+20	{
+21	    int x;
+22	    printf("Enter array size: ");
+23	    scanf("%d",&x);
+24	    return x;
+25	}
+26	
+27	void input_array(int n, int a[n])
+28	{
+29	    for(int i=0;i<n;i++)
+30	    {
+31	        scanf("%d",&a[i]);
+32	    }
+33	}
+34	
+35	int sum_composite_numbers(int n, int a[n])
+36	{
+37	    int sum=0;
+38	    for(int i=0;i<n;i++)
+39	    {
+40	        if(a[i]>3)
+41	        {
+42	            for(int j=2;j<a[i];j++)
+43	            {
+44	                if(a[i]%j==0)
+45	                {
+46	                    sum+=a[i];
+47	                    break;
+48	                }
+49	            }
+50	        }
+51	    }
+52	    return sum;    
+53	}
+54	
+55	void output(int sum)
+56	{
+57	    printf("%d",sum);
+58	}
+Breakpoint 1 at 0x401482: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem04.c, line 11.
+Note: breakpoint 1 also set at pc 0x401482.
+Breakpoint 2 at 0x401482: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem04.c, line 11.
+Function "info" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x00401482 in main 
+                                           at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem04.c:11
+2       breakpoint     keep y   0x00401482 in main 
+                                           at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem04.c:11
+Breakpoint 3 at 0x4014c9: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem04.c, line 13.
+Breakpoint 4 at 0x4014db: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem04.c, line 14.
