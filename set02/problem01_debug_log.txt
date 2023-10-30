@@ -2,4 +2,49 @@
 
 GDB debug log -   10/16/2023, 9:35:00 AM
 
-  
+  1	#include <stdio.h>
+2	
+3	void input(float *base, float *height);
+4	void find_area(float base , float height, float *area);
+5	void output(float base, float height, float area);
+6	
+7	int main()
+8	{
+9	    float b,h,a;
+10	    input(&b,&h);
+11	    find_area(b,h,&a);
+12	    output(b,h,a);
+13	    return 0;
+14	}
+15	
+16	void input(float *base, float *height)
+17	{
+18	    scanf("%f%f",base,height);
+19	}
+20	
+21	void find_area(float base , float height, float *area)
+22	{
+23	    *area=(base*height)/2;
+24	}
+25	
+26	void output(float base, float height, float area)
+27	{
+28	    printf("The area of triangle with base %f and height %f is %f",base,height,area);
+29	}
+Breakpoint 1 at 0x401482: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem01.c, line 11.
+Breakpoint 2 at 0x4014a0: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem01.c, line 12.
+Starting program: C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02/./problem01.exe 
+[New Thread 5952.0x28e8]
+[New Thread 5952.0x13f8]
+
+Breakpoint 1, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem01.c:11
+11	    find_area(b,h,&a);
+$1 = 2
+$2 = 4
+
+Breakpoint 2, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem01.c:12
+12	    output(b,h,a);
+$3 = 4
+13	    return 0;
