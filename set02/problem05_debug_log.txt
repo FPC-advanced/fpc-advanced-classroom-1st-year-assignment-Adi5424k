@@ -4,3 +4,14 @@ Breakpoint 3 at 0x40152b: file c:\Users\adity\github-classroom\FPC-advanced\fpc-
 Starting program: C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02/./problem05.exe 
 [New Thread 16668.0x328]
 [New Thread 16668.0x47c4]
+
+Breakpoint 1, input ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem05.c:20
+warning: Source file is more recent than executable.
+20	    return x;
+No symbol "a" in current context.
+$1 = 12
+21	}
+main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem05.c:11
+11	    b=input();
