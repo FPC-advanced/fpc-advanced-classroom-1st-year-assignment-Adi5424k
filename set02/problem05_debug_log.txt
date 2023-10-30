@@ -1,0 +1,2 @@
+Breakpoint 1 at 0x4014dc: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem05.c, line 20.
+Breakpoint 2 at 0x4014f6: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem05.c, line 28.
