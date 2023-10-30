@@ -21,3 +21,13 @@ Breakpoint 1, input ()
 20	    return x;
 No symbol "a" in current context.
 No symbol "b" in current context.
+21	}
+main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem05.c:12
+12	    gcd=find_gcd(a,b);
+$2 = 12
+$3 = 16
+
+Breakpoint 2, find_gcd (a=12, b=16)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem05.c:29
+29	    for(int i=1;i<=k;i++)
