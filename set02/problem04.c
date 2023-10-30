@@ -59,14 +59,6 @@ int sum_composite_numbers(int n, int a[n])
     {
         if(a[i]>3)
         {
-            for(int j=2;j<a[i];j++)
-            {
-                if(a[i]%j==0)
-                {
-                    sum+=a[i];
-                    break;
-                }
-            }
         }
     }
     return sum;    
