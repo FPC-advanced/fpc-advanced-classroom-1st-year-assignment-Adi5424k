@@ -1,0 +1,10 @@
+Breakpoint 1 at 0x40147a: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem06.c, line 11.
+Breakpoint 2 at 0x401486: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem06.c, line 12.
+Starting program: C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02/./problem06.exe 
+[New Thread 20044.0x45d0]
+[New Thread 20044.0x4eac]
+
+Breakpoint 1, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem06.c:11
+11	    str_reverse(a);
+$1 = "hello\000¢v\b\000\000\000}\201¡vc\201¡vá\230µŽà\022@\000à\022@\000\000\000\000\000\000\032@\000Ðþa\000\bÿa\000Ìÿa\000pá¡ve¹røþÿÿÿ\bÿa\000m‚¡v\000\032@\000Tÿa\000[\032@\000\000\032@\000h/Ê\000\000\000\000\000\000\220\063"
