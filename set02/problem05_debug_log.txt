@@ -65,3 +65,10 @@ $4 = 16
 29	    for(int i=1;i<=k;i++)
 31	        if(a%i==0 && b%i==0)
 $5 = 15
+29	    for(int i=1;i<=k;i++)
+31	        if(a%i==0 && b%i==0)
+29	    for(int i=1;i<=k;i++)
+
+Breakpoint 3, find_gcd (a=12, b=16)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set02\problem05.c:36
+36	    return gcd;
