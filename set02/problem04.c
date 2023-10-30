@@ -35,7 +35,7 @@ void input_array(int n, int a[n])
 
 int is_composite(int n)
 {
-    if(n<=1)
+    if(n<=3)
     {
         return 0;
     }
