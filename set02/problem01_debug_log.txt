@@ -48,3 +48,8 @@ Breakpoint 2, main ()
 12	    output(b,h,a);
 $3 = 4
 13	    return 0;
+A debugging session is active.
+
+	Inferior 1 [process 5952] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
