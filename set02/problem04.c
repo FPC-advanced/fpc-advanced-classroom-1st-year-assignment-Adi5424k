@@ -57,7 +57,7 @@ int sum_composite_numbers(int n, int a[n])
     int sum=0;
     for(int i=0;i<n;i++)
     {
-        if(is_composite(a[n])==1)
+        if(is_composite(a[i])==1)
         {
             sum+=a[i];
             break;
