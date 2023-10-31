@@ -9,7 +9,8 @@ int main()
 {
     float x1,x2,y1,y2,dist;
     input(&x1,&y1,&x2,&y2);
-    dist=find_distance()
+    dist=find_distance(x1,y1,x2,y2);
+    out
 }
 
 void input(float *x1, float *y1, float *x2, float *y2)
