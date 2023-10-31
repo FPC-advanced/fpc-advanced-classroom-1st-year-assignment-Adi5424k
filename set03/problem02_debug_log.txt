@@ -1,0 +1,16 @@
+Breakpoint 1 at 0x401659: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem02.c, line 39.
+Starting program: C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03/./problem02.exe 
+[New Thread 16004.0x21f4]
+[New Thread 16004.0x2528]
+
+Breakpoint 1, is_triangle (x1=2, y1=3, x2=5, y2=1, x3=4, y3=6)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem02.c:39
+39	    return ((dist1+dist2>dist3) && (dist1+dist3>dist2) && (dist2+dist3>dist1));
+$1 = 2.23606801
+$2 = -nan(0x400000)
+$3 = -nan(0x400000)
+A debugging session is active.
+
+	Inferior 1 [process 16004] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
