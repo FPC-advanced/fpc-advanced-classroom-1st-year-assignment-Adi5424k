@@ -1,1 +1,5 @@
-problem08: No such file or directory.
+No symbol table is loaded.  Use the "file" command.
+Undefined command: "git".  Try "help".
+Undefined command: "git".  Try "help".
+Undefined command: "git".  Try "help".
+Undefined set logging command: "enabled off".  Try "help set logging".
