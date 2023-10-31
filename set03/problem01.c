@@ -8,7 +8,7 @@ void output(float x1, float y1, float x2, float y2, float distance);
 int main()
 {
     float x1,x2,y1,y2,dist;
-    input()
+    input(&x1,&y1)
 }
 
 void input(float *x1, float *y1, float *x2, float *y2)
