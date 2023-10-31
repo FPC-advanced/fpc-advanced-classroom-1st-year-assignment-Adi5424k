@@ -7,7 +7,8 @@ void output(float x1, float y1, float x2, float y2,float x3, float y3, int resul
 
 int main()
 {
-    float
+    float x1,x2,x3,y1,y2,y3,r;
+    input_triangle(&x1,&y1)
 }
 
 void input_triangle(float *x1, float *y1, float *x2, float *y2, float *x3, float *y3)
