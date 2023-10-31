@@ -43,7 +43,7 @@ void output(float x1, float y1, float x2, float y2,float x3, float y3, int resul
 {
     if(result==0)
     {
-        printf("The point (%f,%f), (%f,%f) and (%f,%f) form a Triangle",x1,y1,x2,y2,x3,y3);
+        printf("The point (%f,%f), (%f,%f) and (%f,%f) forms a Triangle",x1,y1,x2,y2,x3,y3);
     }
     else
     {
