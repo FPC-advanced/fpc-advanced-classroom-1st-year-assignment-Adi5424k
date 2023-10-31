@@ -28,3 +28,7 @@
 29	}
 30	
 31	void output(float x1, float y1, float x2, float y2, float distance)
+32	{
+33	    printf("The distance between point (%f,%f) and (%f,%f) is %f",x2,y2,x1,y1,distance);
+34	}
+Breakpoint 1 at 0x401492: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem01.c, line 12.
