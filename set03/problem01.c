@@ -16,7 +16,7 @@ int main()
 
 void input(float *x1, float *y1, float *x2, float *y2)
 {
-    printf("Enter ")
+    printf("Enter points in ")
     scanf("%f%f",x1,y1);
     scanf("%f%f",x2,y2);
 }
