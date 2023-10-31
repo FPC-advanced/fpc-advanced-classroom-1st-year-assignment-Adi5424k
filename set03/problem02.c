@@ -36,7 +36,7 @@ int is_triangle(float x1, float y1, float x2, float y2,float x3, float y3)
     float dist1=find_distance(x1,y1,x2,y2);
     float dist2=find_distance(x1,y1,x3,y3);
     float dist3=find_distance(x2,y2,x3,y3);
-    return ((dist1+dist2>dist3) && (dist1+dist3>dist2) && (dist1+dist2>dist3));
+    return ((dist1+dist2>dist3) && (dist1+dist3>dist2) && (dist2+dist3>dist3));
 }
 
 void output(float x1, float y1, float x2, float y2,float x3, float y3, int result)
