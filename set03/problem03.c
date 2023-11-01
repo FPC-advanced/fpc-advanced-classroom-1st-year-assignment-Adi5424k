@@ -10,5 +10,11 @@ int main()
 int input_number()
 {
     int x;
+    scanf("%d",&x);
+    return x;
+}
+
+int is_prime(int n)
+{
     
 }
