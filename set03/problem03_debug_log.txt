@@ -1,0 +1,48 @@
+1	#include <stdio.h>
+2	
+3	int input_number();
+4	int is_prime(int n);
+5	void output(int n, int result);
+6	
+7	int main()
+8	{
+9	    int x,r;
+10	    x=input_number();
+11	    r=is_prime(x);
+12	    output(x,r);
+13	    return 0;
+14	}
+15	
+16	int input_number()
+17	{
+18	    int x;
+19	    scanf("%d",&x);
+20	    return x;
+21	}
+22	
+23	int is_prime(int n)
+24	{
+25	    if(n>1 && n<3)
+26	    {
+27	        return 1;
+28	    }
+29	    else
+30	    {
+31	    for(int i=2;i<=n/2;i++)
+32	    {
+33	        return !(n%i==0);
+34	    }
+35	    }
+36	}
+37	
+38	void output(int n,int result)
+39	{
+40	    if(result==1)
+41	    {
+42	        printf("%d is a prime number.",n);
+43	    }
+44	    else
+45	    {
+46	        printf("%d is not a prime number.",n);
+47	    }
+48	}
