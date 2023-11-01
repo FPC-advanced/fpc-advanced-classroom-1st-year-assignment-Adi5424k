@@ -24,5 +24,5 @@ int is_prime(int n)
 
 void output(int n,int result)
 {
-    if(result==)
+    if(result==1)
 }
