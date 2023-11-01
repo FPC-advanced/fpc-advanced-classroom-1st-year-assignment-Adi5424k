@@ -26,6 +26,10 @@ void output(int n,int result)
 {
     if(result==1)
     {
-        printf("%d is a prime number.",)
+        printf("%d is a prime number.",n);
+    }
+    else
+    {
+        printf("%d is not a prime number.",n);
     }
 }
