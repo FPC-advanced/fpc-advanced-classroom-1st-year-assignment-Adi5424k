@@ -21,3 +21,8 @@ int is_prime(int n)
         return !(n%i==0);
     }
 }
+
+output(int n,int result)
+{
+
+}
