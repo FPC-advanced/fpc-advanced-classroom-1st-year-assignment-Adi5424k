@@ -8,7 +8,9 @@ int main()
 {
     int x,r;
     x=input_number();
-    
+    r=is_prime(x);
+    output(x,r);
+    return 0;
 }
 
 int input_number()
