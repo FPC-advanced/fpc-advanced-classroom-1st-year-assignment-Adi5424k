@@ -16,5 +16,5 @@ int input_number()
 
 int is_prime(int n)
 {
-    
+    for(int i=2;i)
 }
