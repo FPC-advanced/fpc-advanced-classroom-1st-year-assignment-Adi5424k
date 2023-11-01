@@ -18,7 +18,14 @@ int is_prime(int n)
 {
     if(n>1 && n<3)
     {
-        
+        return 1;
+    }
+    else
+    {
+    for(int i=2;i<=n/2;i++)
+    {
+        return !(n%i==0);
+    }
     }
 }
 
