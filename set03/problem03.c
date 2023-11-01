@@ -5,7 +5,11 @@ int is_prime(int n);
 void output(int n, int result);
 
 int main()
-{}
+{
+    int x,r;
+    x=input_number();
+    
+}
 
 int input_number()
 {
