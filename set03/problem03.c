@@ -16,7 +16,10 @@ int input_number()
 
 int is_prime(int n)
 {
-    if(n>3)
+    if(n>1 && n<3)
+    {
+        
+    }
 }
 
 void output(int n,int result)
