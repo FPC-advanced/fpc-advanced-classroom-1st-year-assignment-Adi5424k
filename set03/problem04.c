@@ -6,6 +6,9 @@ void output(int n, int fibo);
 
 int main()
 {
+    int x,f;
+    x=input();
+    
 }
 
 int input()
@@ -35,5 +38,5 @@ int find_fibo(int n)
 
 void output(int n, int fibo)
 {
-    printf("The %dth term in the fibonacci series is %d",n,fibo);
+    printf("fibo(%d) = %d",n,fibo);
 }
