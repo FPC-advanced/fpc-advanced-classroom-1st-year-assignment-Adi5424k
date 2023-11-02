@@ -42,6 +42,9 @@ void output(int n, int a[n])
 {
     for(int i=0;i<n;i++)
     {
-        if(a[i])
+        if(a[i]!=0)
+        {
+            print("%d, "a[])
+        }
     }
 }
