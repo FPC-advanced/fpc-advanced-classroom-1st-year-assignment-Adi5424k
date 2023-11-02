@@ -35,5 +35,5 @@ int find_fibo(int n)
 
 void output(int n, int fibo)
 {
-    printf("The %dth term in the fibonacci ser")
+    printf("The %dth term in the fibonacci series is %d",n,fibo);
 }
