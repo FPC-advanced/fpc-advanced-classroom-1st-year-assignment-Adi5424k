@@ -8,7 +8,9 @@ int main()
 {
     int x,f;
     x=input();
-    
+    f=find_fibo(x);
+    output(x,f);
+    return 0;
 }
 
 int input()
