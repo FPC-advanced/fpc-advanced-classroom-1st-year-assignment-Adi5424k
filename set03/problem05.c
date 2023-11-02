@@ -25,9 +25,9 @@ int input_array_size()
 
 void init_array(int n, int a[n])
 {
+    int j=2;
     for(int i=0;i<n;i++)
     {
-        int j=2;
         a[i]=j;
         j++;
     }
