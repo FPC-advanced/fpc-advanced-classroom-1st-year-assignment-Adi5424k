@@ -7,6 +7,8 @@ void output(int n, int a[n]);
 
 int main()
 {
+    int x;
+    x=input_array_size
 }
 
 int input_array_size()
@@ -44,7 +46,7 @@ void output(int n, int a[n])
     {
         if(a[i]!=0)
         {
-            print("%d, "a[])
+            print("%d, ",a[i]);
         }
     }
 }
