@@ -17,9 +17,9 @@ int input()
 
 int find_fibo(int n)
 {
-    int a,b=0,1;
+    int a=0,b=1;
     for(int i;i<=n;i++)
     {
-
+        
     }
 }
