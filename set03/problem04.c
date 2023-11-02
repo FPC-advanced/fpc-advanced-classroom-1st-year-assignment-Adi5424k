@@ -34,8 +34,8 @@ int find_fibo(int n)
     for(int i=4;i<=n;i++)
     {
         int c=a;
-        a=b;
         b=c+b;
+        
     }
     return b;
 }
