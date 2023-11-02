@@ -18,8 +18,8 @@ int input()
 int find_fibo(int n)
 {
     int a=0,b=1;
-    for(int i;i<=n;i++)
+    for(int i=;i<=n;i++)
     {
-        
+
     }
 }
