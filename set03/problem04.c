@@ -32,3 +32,8 @@ int find_fibo(int n)
     }
     return a;
 }
+
+void output(int n, int fibo)
+{
+    printf("The %dth term in the fibonacci ser")
+}
