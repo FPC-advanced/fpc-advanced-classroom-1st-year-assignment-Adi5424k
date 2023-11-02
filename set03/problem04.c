@@ -21,12 +21,12 @@ int find_fibo(int n)
     {
         return 0;
     }
-    else if(n==1 || n==2)
+    else if(n==2 || n==3)
     {
         return 1;
     }
-    int a=0,b=1;
-    for(int i=3;i<=n;i++)
+    int a=1,b=1;
+    for(int i=4;i<=n;i++)
     {
 
     }
