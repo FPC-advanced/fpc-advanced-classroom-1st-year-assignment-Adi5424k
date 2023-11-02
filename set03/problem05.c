@@ -39,7 +39,7 @@ void erotosthenes_sieve(int n, int a[n])
     {
         if(a[i]>3 && a[i]!=5)
         {
-            if(a[i]%2==0 || a[i]%3==0 && a[i]%5==0)
+            if(a[i]%2==0 || a[i]%3==0 || a[i]%5==0)
             {
                 a[i]=0;
             }
