@@ -8,7 +8,11 @@ void output(int n, int a[n]);
 int main()
 {
     int x;
-    x=input_array_size
+    x=input_array_size();
+    int a[x];
+    init_array(x,a);
+    erotosthenes_sieve(x,a);
+    output()
 }
 
 int input_array_size()
