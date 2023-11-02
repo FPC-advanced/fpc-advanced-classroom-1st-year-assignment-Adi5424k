@@ -25,10 +25,11 @@ int input_array_size()
 
 void init_array(int n, int a[n])
 {
-    a[0]=2;
-    for(int i=1;i<n;i++)
+    for(int i=0;i<n;i++)
     {
-        a[i]=(i+1);
+        int j=2;
+        a[i]=j;
+        j++;
     }
 }
 
