@@ -1,0 +1,53 @@
++l
+1	#include <stdio.h>
+2	
+3	int input();
+4	int find_fibo(int n);
+5	void output(int n, int fibo);
+6	
+7	int main()
+8	{
+9	    int x,f;
+10	    x=input();
++l
+11	    f=find_fibo(x);
+12	    output(x,f);
+13	    return 0;
+14	}
+15	
+16	int input()
+17	{
+18	    int x;
+19	    scanf("%d",&x);
+20	    return x;
++l
+21	}
+22	
+23	int find_fibo(int n)
+24	{
+25	    int c=0;
+26	    if(n==1)
+27	    {
+28	        return 0;
+29	    }
+30	    else if(n==2 || n==3)
++l
+31	    {
+32	        return 1;
+33	    }
+34	    int a=1,b=1;
+35	    for(int i=4;i<=n;i++)
+36	    {
+37	        c=a+b;
+38	        a=b;
+39	        b=c;
+40	    }
++l
+41	    return c;
+42	}
+43	
+44	void output(int n, int fibo)
+45	{
+46	    printf("fibo(%d) = %d",n,fibo);
+47	}+b 11
+Breakpoint 1 at 0x401477: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem04.c, line 11.
