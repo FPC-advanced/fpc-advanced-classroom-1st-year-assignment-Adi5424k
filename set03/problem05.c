@@ -12,7 +12,8 @@ int main()
     int a[x];
     init_array(x,a);
     erotosthenes_sieve(x,a);
-    output()
+    output(x,a);
+    return 0;
 }
 
 int input_array_size()

@@ -1,0 +1,9 @@
+Compilation started at 11/2/2023, 4:11:31 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem05.c: In function 'output':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem05.c:54:13: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+             print("%d, ",a[i]);
+             ^~~~~
+C:\Users\adity\AppData\Local\Temp\ccSXNc3o.o: In function `output':
+c:/Users/adity/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Adi5424k/set03/problem05.c:54: undefined reference to `print'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/2/2023, 4:11:31 PM
