@@ -9,3 +9,7 @@ collect2.exe: error: ld returned 1 exit status
 Compilation finished at 11/2/2023, 4:11:31 PM
 Compilation started at 11/2/2023, 4:11:45 PM
 Compilation finished at 11/2/2023, 4:11:45 PM
+Compilation started at 11/2/2023, 4:15:38 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/2/2023, 4:15:38 PM
