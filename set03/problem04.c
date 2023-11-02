@@ -37,7 +37,7 @@ int find_fibo(int n)
         a=b;
         b=c+a;
     }
-    return a;
+    return b;
 }
 
 void output(int n, int fibo)
