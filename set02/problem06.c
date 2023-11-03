@@ -25,7 +25,11 @@ void str_reverse(char *str)
     for(len=0;str[len]!='\0';len++);
     for(int i=0;i<len;i++)
     {
-        printf("%c",str[len-i]);
+        rev[i]=str[i];
+    }
+    for(int i=0;i<len;i++)
+    {
+        str[i]=rev[(len-1)-i];
     }
 }
 
