@@ -1,2 +1,12 @@
 No symbol table is loaded.  Use the "file" command.
 No symbol table is loaded.  Use the "file" command.
+7	
+8	Triangle input_triangle();
+9	void input_n_triangles(int n, Triangle t[n]);
+10	void find_area(Triangle *t);
+11	void find_n_areas(int n, Triangle t[n]);
+12	Triangle find_smallest_triangle(int n, Triangle t[n]);
+13	void output(int n, Triangle t[n], Triangle smallest);
+14	
+15	int main()
+16	{
