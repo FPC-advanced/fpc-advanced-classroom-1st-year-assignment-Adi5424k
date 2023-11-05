@@ -6,7 +6,7 @@ void output(char *string, char *substring, int index);
 
 int main()
 {
-    char str,substr;
+    char str[100],substr[100];
     int i=0;
     input_string(str,substr);
     i=sub_str_index(str,substr);
@@ -29,11 +29,16 @@ int sub_str_index(char* string, char* substring)
     for(len2=0;substring[len2]!='\0';len2++);
     for(i=0;i<len1;i++)
     {
-        if(string[i]==substring[i])
+        if(string[i]==substring[0])
         {
             for(j=0;j<len2;j++)
             {
-                return (substring[j]!=string[j]);
+                if(substring[j]!=string[i])
+                {
+                    break;
+                }
+                else
+                { return i; }
             }
         }
     }
@@ -41,5 +46,5 @@ int sub_str_index(char* string, char* substring)
 
 void output(char *string, char *substring, int index)
 {
-    printf("The index of '%s' in '%s' is %d",substring,string,index);
+    printf("The index of '%s' in '%s' is %d\n",substring,string,index);
 }
