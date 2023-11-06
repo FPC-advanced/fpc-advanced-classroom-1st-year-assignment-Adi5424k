@@ -50,3 +50,8 @@ float find_distance(Point a, Point b)
     float dist=sqrt((a.x-b.x)*(a.x-b.x)+(a.y-b.y)*(a.y-b.y));
     return dist;
 }
+
+void find_perimeter(Polygon* p)
+{
+    
+}
