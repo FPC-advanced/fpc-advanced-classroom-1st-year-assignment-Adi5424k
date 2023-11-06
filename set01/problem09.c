@@ -23,7 +23,7 @@ float input()
 
 float square_root(float n)
 {
-    float x,Err=0.01;
+    float x,Err=0.00001;
     x=n/2;
     while ((x*x-n)>Err||(n-x*x)>Err)
     {
