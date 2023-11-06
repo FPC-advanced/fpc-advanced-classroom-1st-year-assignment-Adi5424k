@@ -24,10 +24,10 @@ int main()
 
 int input_n()
 {
-    int x;
+    Polygon x;
     printf("Enter the number of sides of the polygon: ");
-    scanf("%d",&x);
-    return x;
+    scanf("%d",&x.sides);
+    return x.sides;
 }
 
 Point input_n()
