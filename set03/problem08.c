@@ -15,3 +15,6 @@ int input_polygon(Polygon *p);
 float find_distance(Point a, Point b);
 void find_perimeter(Polygon* p);
 void output(Polygon p);
+
+int main()
+{}
