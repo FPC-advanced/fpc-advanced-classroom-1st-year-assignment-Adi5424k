@@ -39,7 +39,7 @@ Point input_point()
 
 void input_polygon(Polygon *p)
 {
-    for(int i=0;i<p->sides;i++)
+    for(int i=0;i<(p->sides);i++)
     {
         p->p[i]=input_point();
     }
