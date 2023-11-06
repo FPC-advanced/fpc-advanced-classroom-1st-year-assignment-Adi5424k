@@ -25,7 +25,8 @@ int main()
     p.sides=input_n();
     input_polygon(&p);
     find_perimeter(&p);
-    
+    output(p);
+    return 0;
 }
 
 int input_n()
@@ -67,5 +68,5 @@ void find_perimeter(Polygon *p)
 
 void output(Polygon p)
 {
-    print("The perimeter of the polygon is %f",p.perimeter);
+    printf("The perimeter of the polygon is %f",p.perimeter);
 }
