@@ -17,6 +17,7 @@ void output(Line l);
 
 int main()
 {
+    
 }
 
 Point input_point()
@@ -42,5 +43,5 @@ void find_length(Line *l)
 
 void output(Line l)
 {
-    printf("The distance between the points (%f,%f) and (%f,%f) is %f",l.p1.x,l.p1.y,)
+    printf("The distance between the points (%f,%f) and (%f,%f) is %f",l.p1.x,l.p1.y,l.p2.x,l.p2.y,l.distance);
 }
