@@ -22,6 +22,7 @@ Point input_point()
 {
     Point p;
     scanf("%f%f",&p.x,&p.y);
+    return p;
 }
 
 Line input_line()
@@ -29,5 +30,5 @@ Line input_line()
     Line l;
     l.p1=input_point();
     l.p2=input_point();
-    
+    return l;
 }
