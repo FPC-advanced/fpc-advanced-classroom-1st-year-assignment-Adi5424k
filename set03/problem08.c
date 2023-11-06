@@ -30,7 +30,9 @@ int input_n()
     return x;
 }
 
-Point input_point(char *promt_msg)
+Point input_point()
 {
-    
+    Point p;
+    scanf("%f%f",&p.x,&p.y);
+    return p;
 }
