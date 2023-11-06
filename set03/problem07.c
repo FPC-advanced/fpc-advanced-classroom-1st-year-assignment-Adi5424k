@@ -32,3 +32,8 @@ Line input_line()
     l.p2=input_point();
     return l;
 }
+
+void find_length(Line *l)
+{
+    l->distance=l
+}
