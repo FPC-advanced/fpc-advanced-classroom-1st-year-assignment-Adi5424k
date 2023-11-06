@@ -19,7 +19,9 @@ int main()
 {
     Line l;
     l=input_line();
-    find
+    find_length(&l);
+    output(l);
+    return 0;
 }
 
 Point input_point()
