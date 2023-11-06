@@ -41,6 +41,6 @@ void input_polygon(Polygon *p)
 {
     for(int i=1;i<=p->sides;i++)
     {
-        p[i]=input_point();
+        p->p[i]=input_point();
     }
 }
