@@ -28,4 +28,6 @@ Line input_line()
 {
     Line l;
     l.p1=input_point();
+    l.p2=input_point();
+    
 }
