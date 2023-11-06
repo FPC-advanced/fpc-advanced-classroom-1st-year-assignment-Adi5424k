@@ -30,7 +30,7 @@ int input_n()
     return x;
 }
 
-Point input_point()
+Point input_n()
 {
     Point p;
     scanf("%f%f",&p.x,&p.y);
