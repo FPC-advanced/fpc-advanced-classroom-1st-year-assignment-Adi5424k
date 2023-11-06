@@ -38,3 +38,6 @@ Point input_point(char *promt_msg)
 }
 
 void input_polygon(Polygon *p)
+{
+    
+}
