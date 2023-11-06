@@ -42,5 +42,5 @@ void find_length(Line *l)
 
 void output(Line l)
 {
-    printf("The distance between the points (1.000000,1.000000) and (2.000000,2.000000) is 1.4142")
+    printf("The distance between the points (%f,%f) and (%f,%f) is %f",)
 }
