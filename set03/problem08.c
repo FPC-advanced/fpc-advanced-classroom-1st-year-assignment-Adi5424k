@@ -47,6 +47,5 @@ void input_polygon(Polygon *p)
 
 float find_distance(Point a, Point b)
 {
-    float x=((a.x-b.x)*(a.x-b.x)+(a.y-b.y)*(a.y-l->p1.y));
-    l->distance=sqrt(x);
+    float x=((a.x-b.x)*(a.x-b.x)+(a.y-b.y)*(a.y-b.y))
 }
