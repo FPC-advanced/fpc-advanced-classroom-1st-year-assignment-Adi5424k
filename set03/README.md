@@ -160,7 +160,7 @@ void output(Line l);
 
 ***Output***
 ```
-The distance between the points (1.000000,1.000000) and (2.000000,2.000000) is 1.4142
+The distance between the points (1.000000,1.000000) and (2.000000,2.000000) is 1.41421
 ```
 
 ---
