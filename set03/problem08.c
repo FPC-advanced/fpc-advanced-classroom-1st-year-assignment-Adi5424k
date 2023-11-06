@@ -51,7 +51,7 @@ float find_distance(Point a, Point b)
     return dist;
 }
 
-void find_perimeter(Polygon* p)
+void find_perimeter(Polygon *p)
 {
-    for(int i=0)
+    for(int i=0;i<p->sides)
 }
