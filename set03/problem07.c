@@ -27,5 +27,5 @@ Point input_point()
 Line input_line()
 {
     Line l;
-    
+    l.p1=input_point();
 }
