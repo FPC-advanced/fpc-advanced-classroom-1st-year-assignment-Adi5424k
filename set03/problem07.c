@@ -36,6 +36,6 @@ Line input_line()
 
 void find_length(Line *l)
 {
-    l->p1.x
+    float x=(())
     l->distance=
 }
