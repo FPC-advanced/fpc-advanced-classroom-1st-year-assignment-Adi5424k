@@ -36,3 +36,5 @@ Point input_point(char *promt_msg)
     scanf("%f%f",&p.x,&p.y);
     return p;
 }
+
+void input_polygon(Polygon *p)
