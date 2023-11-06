@@ -21,7 +21,9 @@ void output(Polygon p);
 
 int main()
 {
-    
+    Polygon p;
+    p.sides=input_n();
+    inp
 }
 
 int input_n()
