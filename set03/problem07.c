@@ -35,5 +35,5 @@ Line input_line()
 
 void find_length(Line *l)
 {
-    l->distance=l
+    l->distance=
 }
