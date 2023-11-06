@@ -17,7 +17,9 @@ void output(Line l);
 
 int main()
 {
-    
+    Line l;
+    l=input_line();
+    find
 }
 
 Point input_point()
