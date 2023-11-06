@@ -1,0 +1,101 @@
++b 26
+Breakpoint 1 at 0x401480: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem08.c, line 26.
++b 27
+Breakpoint 2 at 0x40148f: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem08.c, line 27.
++b 28
+Breakpoint 3 at 0x40149e: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem08.c, line 28.
++r
+Starting program: C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03/./problem08.exe 
+[New Thread 20132.0x49a4]
+[New Thread 20132.0x2988]
+
+Breakpoint 1, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem08.c:26
+26	    input_polygon(&p);
++print p.sides 
+$1 = 4
++n
+
+Breakpoint 2, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem08.c:27
+27	    find_perimeter(&p);
++print p.p
+$2 = {{x = 0, y = 0}, {x = 1, y = 0}, {x = 0, y = 1}, {x = 1, y = 1}, {x = -nan(0x7ffffe), y = 8.99859503e-039}, {x = 2.90082435e+033, 
+    y = 0}, {x = 2.90083642e+033, y = 1.03211125e-038}, {x = 1.02855756e-038, y = 0}, {x = 0, y = 1.03211125e-038}, {x = 0, y = 0}, {
+    x = 0, y = 0}, {x = 0, y = 0}, {x = 0, y = 0}, {x = 0, y = 1.02855756e-038}, {x = 1.02855756e-038, y = 0}, {x = 1.02855756e-038, 
+    y = 8.99865669e-039}, {x = 3.01043775e+033, y = 1.40129846e-045}, {x = 1.02855756e-038, y = 0}, {x = 1.40129846e-045, 
+    y = 1.02855756e-038}, {x = 0, y = 1.02855756e-038}, {x = 0, y = 8.99878561e-039}, {x = 3.00940624e+033, y = 1.02864163e-038}, {
+    x = 3.00939293e+033, y = -6.92681198e+019}, {x = 1.02855756e-038, y = 5.60519386e-045}, {x = 0, y = 1.72559283e+025}, {
+    x = 1.04116104e+024, y = 1.56945428e-043}, {x = 1.0985619e+027, y = 4.82203788e+030}, {x = 8.59003597e+009, y = 1.02855756e-038}, {
+    x = 1.03211013e-038, y = 1.40129846e-045}, {x = 1.03211013e-038, y = 4.19467065e-038}, {x = 8.9986679e-039, y = 1.09856205e+027}, {
+    x = 8.999206e-039, y = 2.87873053e+033}, {x = -4.35853489e-025, y = -nan(0x7ffffe)}, {x = 8.99922842e-039, y = 2.81811294e+033}, {
+    x = 1.03211125e-038, y = -6.92661671e+019}, {x = 1.03211013e-038, y = 1.02855756e-038}, {x = 0, y = 7.50307721e+028}, {
+    x = 4.43769338e+027, y = 5.14205153e+022}, {x = 0, y = 5.60519386e-045}, {x = 2.00002337, y = 1.57957053e-038}, {x = 9.09186126e-039, 
+    y = 8.95429719e-043}, {x = 1.16415322e-010, y = 8.99867911e-039}, {x = 8.99884166e-039, y = 0}, {x = 0, y = 1.47136339e-043}, {
+    x = 1.58041692e-038, y = 1.58043149e-038}, {x = 1.4573504e-043, y = 0}, {x = 8.99928027e-039, y = 0}, {x = 2.24207754e-044, y = 0}, {
+    x = 1.40129846e-045, y = 1.40129846e-045}, {x = 1.58043149e-038, y = 0}, {x = 5.60519386e-045, y = 0}, {x = 0, y = 8.99913313e-039}, {
+    x = 8.99953671e-039, y = 8.99939658e-039}, {x = 2.87873053e+033, y = 1.79366203e-043}, {x = 1.58099089e-038, y = 3.00633151e+033}, {
+    x = 1.58100995e-038, y = 2.7312473e+033}, {x = 1.12103877e-044, y = 1.58099201e-038}, {x = 1.57957053e-038, y = 1.79366203e-043}, {
+    x = 1.58099089e-038, y = 3.00633151e+033}, {x = 1.58100995e-038, y = 2.7312473e+033}, {x = 1.12103877e-044, y = 1.58099201e-038}, {
+    x = 1.57957053e-038, y = 1.58099201e-038}, {x = 1.58099201e-038, y = 1.57957053e-038}, {x = 8.59003392e+009, y = 1.57957053e-038}, {
+    x = 8.99924524e-039, y = 8.99924524e-039}, {x = 3.01030808e+033, y = 1.57965461e-038}, {x = 3.01029539e+033, y = -6.92661847e+019}, {
+    x = 1.12103877e-044, y = 1.57957053e-038}, {x = 1.58099201e-038, y = 1.57957053e-038}, {x = 8.59003392e+009, y = -nan(0x7ffffe)}, {
+    x = 1.79366203e-043, y = 2.65533615e-038}, {x = 8.99916116e-039, y = 5.60519386e-045}, {x = 8.99937416e-039, y = 2.87873053e+033}, {
+    x = -4.35844812e-025, y = -nan(0x7ffffe)}, {x = 8.99928447e-039, y = 2.93223306e+033}, {x = 1.58099201e-038, y = 1.12103877e-044}, {
+    x = 1.58099201e-038, y = 1.58099313e-038}, {x = -9.43098854e-030, y = 8.99939658e-039}, {x = 1.83043083e+033, y = 1.57957053e-038}, {
+    x = 0, y = 1.58099201e-038}, {x = 1.26044844e-027, y = 1.12103877e-044}, {x = 1.58099201e-038, y = 1.58099313e-038}, {
+    x = 5.88424283e-039, y = 5.88471366e-039}, {x = 1.40129846e-045, y = 1.84071765e+033}, {x = 1.79366203e-043, y = 8.9993125e-039}, {
+    x = 1.58099369e-038, y = 8.99939097e-039}, {x = 5.88424283e-039, y = 5.88713511e-039}, {x = 0, y = 1.84071765e+033}, {
+    x = 1.58099369e-038, y = 8.9994246e-039}, {x = 1.85106528e+033, y = 1.9022329e+033}, {x = 8.99951429e-039, y = 1.85062086e+033}, {
+    x = 1.12103877e-044, y = 1.84068763e+033}, {x = 1.84068361e+033, y = 1.26044036e-027}, {x = 5.88424283e-039, y = 5.88424283e-039}, {
+    x = 0, y = 5.88713511e-039}, {x = 8.99945263e-039, y = 8.9995311e-039}, {x = 8.99980576e-039, y = 1.84448857e+033}, {
+    x = 1.1554594e+022, y = -nan(0x7ffffe)}, {x = 8.9995311e-039, y = 1.84072477e+033}, {x = 5.88713511e-039, y = 8.9996376e-039}}
++n
+
+Breakpoint 3, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem08.c:28
+28	    output(p);
++print p.perimeter 
+$3 = -nan(0x7ffffe)
++n
+29	    return 0;
++print p.perimeter
+$4 = -nan(0x7ffffe)
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+Starting program: C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03/./problem08.exe 
+[New Thread 12196.0x44bc]
+[New Thread 12196.0x4bfc]
+
+Breakpoint 1, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem08.c:26
+26	    input_polygon(&p);
++print p.sides 
+$5 = 4
++n
+
+Breakpoint 2, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem08.c:27
+27	    find_perimeter(&p);
++print perimeter
+No symbol "perimeter" in current context.
++print p.perimeter 
+$6 = 5.88726263e-039
++n
+
+Breakpoint 3, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem08.c:28
+28	    output(p);
++n
+29	    return 0;
++n
+30	}
++n
+0x00401288 in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 12196] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
