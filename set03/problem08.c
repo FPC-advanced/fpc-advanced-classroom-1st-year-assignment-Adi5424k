@@ -61,5 +61,5 @@ void find_perimeter(Polygon *p)
 
 void output(Polygon p)
 {
-    print("")
+    print("The perimeter of the polygon is ")
 }
