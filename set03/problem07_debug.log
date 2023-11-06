@@ -1,0 +1,21 @@
++b 22
+Breakpoint 1 at 0x4014a2: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem07.c, line 22.
++b 23
+Breakpoint 2 at 0x4014ae: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem07.c, line 23.
++r
+Starting program: C:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03/./problem07.exe 
+[New Thread 13140.0xe38]
+[New Thread 13140.0x26d8]
+
+Breakpoint 1, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem07.c:22
+22	    find_length(&l);
++print l.p1
+$1 = {x = 1, y = 1}
++print l.p2
+$2 = {x = 2, y = 2}
++n
+
+Breakpoint 2, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set03\problem07.c:23
+23	    output(l);
