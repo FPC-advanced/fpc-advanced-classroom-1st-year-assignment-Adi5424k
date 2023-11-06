@@ -44,3 +44,8 @@ void input_polygon(Polygon *p)
         p->p[i]=input_point();
     }
 }
+
+float find_distance(Point a, Point b)
+{
+    
+}
