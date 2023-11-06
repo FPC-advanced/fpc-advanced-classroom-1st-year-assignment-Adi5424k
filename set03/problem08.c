@@ -55,6 +55,11 @@ void find_perimeter(Polygon *p)
 {
     for(int i=0;i<p->sides;i++)
     {
-        p->perimeter+=find_distance(p->p[i],p->p[i+1])
+        p->perimeter+=find_distance(p->p[i],p->p[i+1]);
     }
+}
+
+void output(Polygon p)
+{
+    
 }
