@@ -18,3 +18,10 @@ void output(Polygon p);
 
 int main()
 {}
+
+int input_n()
+{
+    int x;
+    printf("Enter the number of sides of the polygon: ");
+    scanf("%d",)
+}
