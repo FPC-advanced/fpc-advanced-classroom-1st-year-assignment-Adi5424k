@@ -10,5 +10,5 @@ int main()
 
 void input(int *num1, int *den1, int *num2, int *den2)
 {
-    printf
+    printf("Enter first numerator and denomenator: ")
 }
