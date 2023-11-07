@@ -28,7 +28,7 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
         int i=0;
         for(i=2;i<den2;i++)
         {
-            den2%
+            den2%(i*den1)==
         }
     }
 }
