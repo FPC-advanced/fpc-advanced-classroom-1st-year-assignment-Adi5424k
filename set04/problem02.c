@@ -4,4 +4,8 @@ typedef struct {
     int num, den;
 } Fraction;
 
-Fraction input
+Fraction input()
+{
+    Fraction x;
+    
+}
