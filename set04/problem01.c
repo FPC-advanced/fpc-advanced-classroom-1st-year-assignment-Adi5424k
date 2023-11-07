@@ -15,4 +15,4 @@ void input(int *num1, int *den1, int *num2, int *den2)
     printf("Enter second numerator and denomenator: ");
     scanf("%d%d",num2,den2);
 }
-.
+
