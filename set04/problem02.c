@@ -7,5 +7,5 @@ typedef struct {
 Fraction input()
 {
     Fraction x;
-    
+    scanf("%d%d",&x.num,&x.den)
 }
