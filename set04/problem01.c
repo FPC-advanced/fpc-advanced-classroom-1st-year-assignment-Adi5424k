@@ -26,6 +26,9 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
     else if(den2>den1)
     {
         int i=0;
-        for(i=0;i<den2)
+        for(i=0;i<den2;i++)
+        {
+            
+        }
     }
 }
