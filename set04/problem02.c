@@ -3,3 +3,5 @@
 typedef struct {
     int num, den;
 } Fraction;
+
+Fraction input
