@@ -5,12 +5,18 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den);
 void output(int num1, int den1, int num2, int den2, int res_num, int res_den);
 
 int main()
-{}
+{
+    int n1,n2,d1,d2,rn,rd;
+    input(&n1,&d1,&n2,&d2);
+    add(n1,d1,n2,d2,&rn,&rd);
+    output(n1,d1,n2,d2,rn,rd);
+    return 0;    
+}
 
 
 void input(int *num1, int *den1, int *num2, int *den2)
 {
-    printf("Enter first numerator and denomenator: ");
+    printf("Enter first numerator and denomenator : ");
     scanf("%d%d",num1,den1);
     printf("Enter second numerator and denomenator: ");
     scanf("%d%d",num2,den2);
@@ -23,16 +29,25 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
         *res_num=num1+num2;
         *res_den=den1;
     }
-    else if(den2>den1)
+    else
     {
-        int i=0;
-        for(i=2;i<den2;i++)
+        int i, cd=den1*den2;
+        num1*=den2;
+        num2*=den1;
+        *res_num=num1+num2;
+        *res_den=cd;
+        for(i=2;i<=*res_den;i++)
         {
-            if(den2%(i*den1)==0)
+            if(*res_num%i==0 && *res_den%i==0)
             {
-                *res_num=(i*num1)+num2;
-                *res_den=den2;
+                *res_num/=i;
+                *res_den/=i;
             }
         }
     }
+}
+
+void output(int num1, int den1, int num2, int den2, int res_num, int res_den)
+{
+    printf("%d/%d + %d/%d = %d/%d\n",num1,den1,num2,den2,res_num,res_den);
 }
