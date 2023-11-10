@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 typedef struct {
-    float num, den;
+    int num, den;
 } Fraction;
 
 Fraction input()
 {
     Fraction x;
-    scanf("%f%f",&x.num,&x.den);
+    scanf("%d%d",&x.num,&x.den);
     return x;
 }
 
@@ -34,7 +34,7 @@ Fraction smallest3(Fraction x, Fraction y, Fraction z)
 
 void output(Fraction x,Fraction y,Fraction z,Fraction r)
 {
-    printf("The smallest out of %f/%f, %f/%f and %f/%f is %f/%f.\n",x.num,x.den,y.num,y.den,z.num,z.den,r.num,r.den);
+    printf("The smallest out of %d/%d, %d/%d and %d/%d is %d/%d.\n",x.num,x.den,y.num,y.den,z.num,z.den,r.num,r.den);
 }
 
 int main()
