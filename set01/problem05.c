@@ -30,7 +30,7 @@ int compare(int a,int b,int c)
     {
         lrg=a;
     }
-    else if(b>=a && b>=c)
+    else if(b>=c)
     {
         lrg=b;
     }
