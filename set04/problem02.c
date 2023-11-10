@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 typedef struct {
-    int num, den;
+    float num, den;
 } Fraction;
 
 Fraction input()
 {
     Fraction x;
-    scanf("%d%d",&x.num,&x.den);
+    scanf("%f%f",&x.num,&x.den);
     return x;
 }
 
