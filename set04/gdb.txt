@@ -1,0 +1,22 @@
++b 20
+Breakpoint 1 at 0x4014b5: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem02.c, line 20.
++r
+Starting program: c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04/./problem02.exe 
+[New Thread 18036.0xb08]
+[New Thread 18036.0x47fc]
+
+Breakpoint 1, smallest3 (x=..., y=..., z=...)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem02.c:20
+20	    int k=(xf<yf)?((xf<zf)?xf:zf):((yf<zf)?yf:zf);
++print xf
+$1 = 0
++n
+21	    if(k==xf)
++print xf
+$2 = 0
++q
+A debugging session is active.
+
+	Inferior 1 [process 18036] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

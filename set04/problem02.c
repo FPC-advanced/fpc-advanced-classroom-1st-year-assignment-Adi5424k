@@ -13,7 +13,7 @@ Fraction input()
 
 Fraction smallest3(Fraction x, Fraction y, Fraction z)
 {
-    int xf,yf,zf;
+    float xf,yf,zf;
     xf=x.num/x.den;
     yf=y.num/y.den;
     zf=z.num/z.den;
