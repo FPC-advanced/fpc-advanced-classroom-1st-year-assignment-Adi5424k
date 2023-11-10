@@ -39,11 +39,11 @@ void output(Fraction x,Fraction y,Fraction z,Fraction r)
 
 int main()
 {
-    Fraction x,y,z,r;
+    Fraction x,y,z,smallest;
     x=input();
     y=input();
     z=input();
-    r=smallest3(x,y,z);
-    output(x,y,z,r);
+    smallest=smallest3(x,y,z);
+    output(x,y,z,smallest);
     return 0;
 }
