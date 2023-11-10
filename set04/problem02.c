@@ -17,7 +17,7 @@ Fraction smallest3(Fraction x, Fraction y, Fraction z)
     xf=x.num/x.den;
     yf=y.num/y.den;
     zf=z.num/z.den;
-    int k=(xf<yf)?((xf<zf)?xf:zf):((yf<zf)?yf:zf);
+    float k=(xf<yf)?((xf<zf)?xf:zf):((yf<zf)?yf:zf);
     if(k==xf)
     {
         return x;
