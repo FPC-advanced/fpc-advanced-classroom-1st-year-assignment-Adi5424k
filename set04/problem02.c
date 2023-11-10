@@ -43,5 +43,6 @@ int main()
     x=input();
     y=input();
     z=input();
-    
+    r=smallest3(x,y,z);
+    output()
 }
