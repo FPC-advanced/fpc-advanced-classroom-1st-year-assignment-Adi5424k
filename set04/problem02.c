@@ -40,5 +40,8 @@ void output(Fraction x,Fraction y,Fraction z,Fraction r)
 int main()
 {
     Fraction x,y,z,r;
-    x=
+    x=input();
+    y=input();
+    z=input();
+    
 }
