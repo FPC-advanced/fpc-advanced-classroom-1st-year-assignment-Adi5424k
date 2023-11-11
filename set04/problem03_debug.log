@@ -1,0 +1,12 @@
++b 11
+Breakpoint 1 at 0x401482: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem03.c, line 11.
++b 12
+Breakpoint 2 at 0x40149a: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem03.c, line 12.
++r
+Starting program: c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04/./problem03.exe 
+[New Thread 12112.0x4548]
+[New Thread 12112.0x4364]
+
+Breakpoint 1, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem03.c:11
+11	    ncr=nCr(n,r);
