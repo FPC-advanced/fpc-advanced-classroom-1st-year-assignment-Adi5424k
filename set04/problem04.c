@@ -37,9 +37,9 @@ void input_coefficients(int n, float a[n+1])
 
 float input_x()
 {
-    int x;
+    float x;
     printf("Enter the number you want to evaluate the polynomial to:\n");
-    scanf("%d",&x);
+    scanf("%f",&x);
     return x;
 }
 
