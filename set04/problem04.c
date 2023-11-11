@@ -48,7 +48,7 @@ float evaluate_polynomial(int n, float a[n+1], float x)
     float r=a[n];
     for(int i=n-1;i>=0;i--)
     {
-        r*=x+a[i];
+        r=rx+a[i];
     }
     return r;
 }
