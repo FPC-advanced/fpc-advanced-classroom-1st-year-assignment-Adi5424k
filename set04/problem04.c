@@ -31,7 +31,7 @@ void input_coefficients(int n, float a[n+1])
     printf("Enter %d coefficients:\n",n+1);
     for(int i=0;i<(n+1);i++)
     {
-        scanf("%d",&a[i]);
+        scanf("%f",&a[i]);
     }
 }
 
@@ -55,5 +55,5 @@ float evaluate_polynomial(int n, float a[n+1], float x)
 
 void output(int n, float a[n+1], float x, float result)
 {
-    printf("Final answer: %f\n",result);
+    printf("Final answer: %.2f\n",result);
 }
