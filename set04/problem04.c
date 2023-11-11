@@ -29,7 +29,7 @@ int input_degree()
 void input_coefficients(int n, float a[n+1])
 {
     printf("Enter %d coefficients:\n",n+1);
-    for(int i=0;i<(n+1);i--)
+    for(int i=0;i<(n+1);i++)
     {
         scanf("%d",&a[i]);
     }
@@ -46,7 +46,7 @@ float input_x()
 float evaluate_polynomial(int n, float a[n+1], float x)
 {
     float r=a[n];
-    for(int i=n-1;i>=0;i++)
+    for(int i=n-1;i>=0;i--)
     {
         r*=x+a[i];
     }
