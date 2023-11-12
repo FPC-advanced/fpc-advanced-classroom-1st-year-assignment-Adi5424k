@@ -41,6 +41,7 @@ int find_largest_index(int n, int a[n])
     {
         if(a[i]>k)
         {
+            k=a[i];
             j=i;
         }
     }
