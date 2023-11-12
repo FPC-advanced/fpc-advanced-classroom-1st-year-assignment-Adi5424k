@@ -1,0 +1,16 @@
++b 12
+Breakpoint 1 at 0x401483: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem05.c, line 12.
++b 14
+Breakpoint 2 at 0x4014d4: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem05.c, line 14.
++b 15
+Breakpoint 3 at 0x4014e9: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem05.c, line 15.
++r
+Starting program: c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04/./problem05.exe 
+[New Thread 3008.0x47f0]
+[New Thread 3008.0x2d08]
+
+Breakpoint 1, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem05.c:12
+12	    int a[x];
++print x
+$1 = 3
