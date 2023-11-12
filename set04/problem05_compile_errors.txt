@@ -1,0 +1,10 @@
+Compilation started at 11/12/2023, 12:37:07 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem05.c: In function 'main':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem05.c:11:6: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+     x=input_size;
+      ^
+Compilation finished at 11/12/2023, 12:37:07 PM
+Compilation started at 11/12/2023, 12:37:16 PM
+Compilation finished at 11/12/2023, 12:37:16 PM
+Compilation started at 11/12/2023, 12:37:28 PM
+Compilation finished at 11/12/2023, 12:37:28 PM
