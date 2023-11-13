@@ -17,7 +17,7 @@ int main()
 
 void input_string(char *a)
 {
-    scanf("%s",a);
+    scanf("%99[^\n]",a);
 }
 
 int count_words(char *string)
@@ -34,5 +34,5 @@ int count_words(char *string)
 
 void output(char *string, int no_words)
 {
-    printf("The number of words in %s is %d",string,no_words);
+    printf("The number of words is %d\n",no_words);
 }

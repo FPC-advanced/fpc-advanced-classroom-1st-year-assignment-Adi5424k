@@ -10,3 +10,89 @@ c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
          tok=strtok(NULL," ");
             ^
 Compilation finished at 11/13/2023, 10:26:04 AM
+Compilation started at 11/13/2023, 10:32:52 AM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c: In function 'count_words':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:26:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char tok=strtok(string," ");
+              ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:27:14: warning: comparison between pointer and integer
+     while(tok!=NULL)
+              ^~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:30:12: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         tok=strtok(NULL," ");
+            ^
+Compilation finished at 11/13/2023, 10:32:52 AM
+Compilation started at 11/13/2023, 10:33:30 AM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c: In function 'count_words':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:26:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char tok=strtok(string," ");
+              ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:27:14: warning: comparison between pointer and integer
+     while(tok!=NULL)
+              ^~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:30:12: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         tok=strtok(NULL," ");
+            ^
+Compilation finished at 11/13/2023, 10:33:31 AM
+Compilation started at 11/13/2023, 10:33:52 AM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c: In function 'count_words':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:26:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char tok=strtok(string," ");
+              ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:27:14: warning: comparison between pointer and integer
+     while(tok!=NULL)
+              ^~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:30:12: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         tok=strtok(NULL," ");
+            ^
+Compilation finished at 11/13/2023, 10:33:52 AM
+Compilation started at 11/13/2023, 10:39:09 AM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c: In function 'count_words':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:26:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char tok=strtok(string," ");
+              ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:27:14: warning: comparison between pointer and integer
+     while(tok!=NULL)
+              ^~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:30:12: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         tok=strtok(NULL," ");
+            ^
+Compilation finished at 11/13/2023, 10:39:09 AM
+Compilation started at 11/13/2023, 10:42:47 AM
+Compilation finished at 11/13/2023, 10:42:48 AM
+Compilation started at 11/13/2023, 10:44:44 AM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c: In function 'count_words':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:26:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char tok=strtok(string," ");
+              ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:27:14: warning: comparison between pointer and integer
+     while(tok!=NULL)
+              ^~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:30:12: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         tok=strtok(NULL," ");
+            ^
+Compilation finished at 11/13/2023, 10:44:44 AM
+Compilation started at 11/13/2023, 10:45:07 AM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c: In function 'count_words':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:26:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char tok=strtok(string," ");
+              ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:27:14: warning: comparison between pointer and integer
+     while(tok!=NULL)
+              ^~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:30:12: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         tok=strtok(NULL," ");
+            ^
+Compilation finished at 11/13/2023, 10:45:07 AM
+Compilation started at 11/13/2023, 10:45:19 AM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c: In function 'count_words':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:26:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char tok=strtok(string," ");
+              ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:27:14: warning: comparison between pointer and integer
+     while(tok!=NULL)
+              ^~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:30:12: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         tok=strtok(NULL," ");
+            ^
+Compilation finished at 11/13/2023, 10:45:20 AM

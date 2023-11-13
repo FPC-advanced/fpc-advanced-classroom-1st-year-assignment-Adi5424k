@@ -1,0 +1,22 @@
++b 13
+Breakpoint 1 at 0x401482: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c, line 13.
++r
+Starting program: c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04/./problem06.exe 
+[New Thread 1628.0x2dd0]
+[New Thread 1628.0x2620]
+
+Breakpoint 1, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:13
+13	    w=count_words(str);
++print str
+$1 = "hello world hello\000'wc\201'wH©Õ6à\022@\000à\022@\000\000\000\000\000ð\031@\000Ðþa\000\bÿa\000Ìÿa\000pá'wÌ\210\230Aþÿÿÿ\bÿa\000m‚'wð\031@\000Tÿa\000K\032@\000ð\031@\000\000\rx\000\000\000\000"
++n
+14	    output(str,w);
++n
+15	    return 0;
++q
+A debugging session is active.
+
+	Inferior 1 [process 1628] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
