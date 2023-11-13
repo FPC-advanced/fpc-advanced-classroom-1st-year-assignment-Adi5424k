@@ -63,7 +63,7 @@ Complex add_n_complex(int n, Complex c[n])
 	sum.imaginary=0;sum.real=0;
 	for(i=0;i<n;i++)
 	{
-		sum=add_complex(sum,c[i]);
+		sum=add(sum,c[i]);
 	}
 	return sum;	
 }
