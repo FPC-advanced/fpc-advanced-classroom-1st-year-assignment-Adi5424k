@@ -69,7 +69,7 @@ Fraction add_fractions(Fraction f1, Fraction f2)
 
 Fraction add_n_fractions(int n, Fraction f[n])
 {
-    Fraction sum={0,0};
+    Fraction sum;
     for(int i=0;i<n-1;i++)
     {
         sum=add_fractions(f[i],f[i+1]);
