@@ -69,5 +69,5 @@ Fraction add_fractions(Fraction f1, Fraction f2)
 
 Fraction add_n_fractions(int n, Fraction f[n])
 {
-    
+    Fraction sum=f
 }
