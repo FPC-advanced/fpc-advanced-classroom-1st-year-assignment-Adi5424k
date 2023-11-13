@@ -74,4 +74,5 @@ Fraction add_n_fractions(int n, Fraction f[n])
     {
         sum=add_fractions(f[i],f[i+1]);
     }
+    return sum;
 }
