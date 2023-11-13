@@ -30,3 +30,8 @@ Fraction input_fraction()
     scanf("%d%d",&x.num,&x.den);
     return x;
 }
+
+void input_n_fractions(int n, Fraction f[n])
+{
+    for(int i=0;)
+}
