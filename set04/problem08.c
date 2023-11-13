@@ -33,5 +33,8 @@ Fraction input_fraction()
 
 void input_n_fractions(int n, Fraction f[n])
 {
-    for(int i=0;)
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d%d",f[i].num,)
+    }
 }
