@@ -16,3 +16,9 @@ void output(int n, Fraction f[n], Fraction sum);
 int main()
 {}
 
+int input_n()
+{
+    printf("Number of fractions: ");
+    scanf
+}
+
