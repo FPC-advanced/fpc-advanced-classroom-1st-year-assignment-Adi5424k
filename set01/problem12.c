@@ -48,7 +48,7 @@ void input_n_complex(int n, Complex c[n])
 	}
 }
 
-Complex add_complex(Complex a, Complex b)
+Complex add(Complex a, Complex b)
 {
     Complex sum;
     sum.real=a.real+b.real;
