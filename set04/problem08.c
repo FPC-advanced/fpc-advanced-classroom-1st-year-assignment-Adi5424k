@@ -66,3 +66,8 @@ Fraction add_fractions(Fraction f1, Fraction f2)
     sum.den/=gcd;
     return sum;
 }
+
+Fraction add_n_fractions(int n, Fraction f[n])
+{
+    
+}
