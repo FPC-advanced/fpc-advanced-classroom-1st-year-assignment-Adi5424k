@@ -18,7 +18,15 @@ int main()
 
 int input_n()
 {
+    int n;
     printf("Number of fractions: ");
-    scanf
+    scanf("%d",&n);
+    return n;
 }
 
+Fraction input_fraction()
+{
+    Fraction x;
+    scanf("%d%d",&x.num,&x.den);
+    return x;
+}
