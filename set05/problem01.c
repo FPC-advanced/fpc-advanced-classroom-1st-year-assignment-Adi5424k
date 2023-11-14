@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 struct _point {
   float x;
@@ -17,5 +18,11 @@ int main()
 Point input()
 {
     Point p;
-    scanf("%f%f",p.x,p.y)
+    scanf("%f%f",p.x,p.y);
+    return p;
+}
+
+void dist(Point a, Point b, float *res)
+{
+
 }
