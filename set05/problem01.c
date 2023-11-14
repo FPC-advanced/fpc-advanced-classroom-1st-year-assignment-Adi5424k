@@ -14,3 +14,8 @@ void output(Point a, Point b, float res);
 int main()
 {}
 
+Point input()
+{
+    Point p;
+    scanf("%f%f",p.x,p.y)
+}
