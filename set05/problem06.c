@@ -10,7 +10,9 @@ int main()
     int n=input_n();
     int a[n];
     input(n,a);
-    float avg=
+    float avg=odd_average(n,a);
+    output(avg);
+    return 0;
 }
 
 int input_n()
