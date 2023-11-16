@@ -8,8 +8,8 @@ int main()
 {
     char c[100];
     int r=0;
-    input(&c);
-    r=has_nice_name(&c);
+    input(c);
+    r=has_nice_name(c);
     output(r);
     return 0;
 }
