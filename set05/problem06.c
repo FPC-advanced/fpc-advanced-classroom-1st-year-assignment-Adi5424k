@@ -7,8 +7,10 @@ void output(float avg);
 
 int main()
 {
-    int n;
-    
+    int n=input_n();
+    int a[n];
+    input(n,a);
+    float avg=
 }
 
 int input_n()
