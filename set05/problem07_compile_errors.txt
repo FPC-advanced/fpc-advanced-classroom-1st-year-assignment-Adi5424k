@@ -1,0 +1,15 @@
+Compilation started at 11/16/2023, 4:11:17 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem07.c: In function 'main':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem07.c:11:11: warning: passing argument 1 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+     input(&c);
+           ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem07.c:3:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void input(char *name);
+      ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem07.c:12:21: warning: passing argument 1 of 'has_nice_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     r=has_nice_name(&c);
+                     ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem07.c:4:5: note: expected 'char *' but argument is of type 'char (*)[100]'
+ int has_nice_name(char *c);
+     ^~~~~~~~~~~~~
+Compilation finished at 11/16/2023, 4:11:18 PM
