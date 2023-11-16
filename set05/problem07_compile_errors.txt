@@ -21,3 +21,33 @@ Compilation started at 11/16/2023, 4:12:26 PM
 Compilation finished at 11/16/2023, 4:12:26 PM
 Compilation started at 11/16/2023, 4:12:52 PM
 Compilation finished at 11/16/2023, 4:12:52 PM
+Compilation started at 11/16/2023, 4:13:48 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem07.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/16/2023, 4:13:48 PM
+Compilation started at 11/16/2023, 4:13:57 PM
+Compilation finished at 11/16/2023, 4:13:57 PM
+Compilation started at 11/16/2023, 4:14:03 PM
+Compilation finished at 11/16/2023, 4:14:03 PM
+Compilation started at 11/16/2023, 4:14:12 PM
+Compilation finished at 11/16/2023, 4:14:12 PM
+Compilation started at 11/16/2023, 4:14:24 PM
+Compilation finished at 11/16/2023, 4:14:24 PM
+Compilation started at 11/16/2023, 4:15:33 PM
+Compilation finished at 11/16/2023, 4:15:33 PM
+Compilation started at 11/16/2023, 4:16:53 PM
+Compilation finished at 11/16/2023, 4:16:54 PM
+Compilation started at 11/16/2023, 4:17:14 PM
+Compilation finished at 11/16/2023, 4:17:14 PM
+Compilation started at 11/16/2023, 4:17:34 PM
+Compilation finished at 11/16/2023, 4:17:34 PM
+Compilation started at 11/16/2023, 4:18:37 PM
+Compilation finished at 11/16/2023, 4:18:37 PM
+Compilation started at 11/16/2023, 4:18:44 PM
+Compilation finished at 11/16/2023, 4:18:44 PM
+Compilation started at 11/16/2023, 4:22:32 PM
+Compilation finished at 11/16/2023, 4:22:32 PM
+Compilation started at 11/16/2023, 4:25:01 PM
+Compilation finished at 11/16/2023, 4:25:01 PM
+Compilation started at 11/16/2023, 4:25:08 PM
+Compilation finished at 11/16/2023, 4:25:09 PM

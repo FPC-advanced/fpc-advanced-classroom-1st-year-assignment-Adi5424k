@@ -1,0 +1,49 @@
++b 27
+Breakpoint 1 at 0x401504: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem07.c, line 27.
++r
+Starting program: c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05/./problem07.exe 
+[New Thread 14944.0x38c0]
+[New Thread 14944.0x3b28]
+
+Breakpoint 1, has_nice_name (c=0x61feb8 "Ajiog")
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem07.c:27
+27	    for(int i=0;i<len;i++)
++print len
+$1 = 5
++b 38
+Breakpoint 2 at 0x40151d: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem07.c, line 38.
++n
+31	            vow++;
++n
+27	    for(int i=0;i<len;i++)
++n
+31	            vow++;
++n
+27	    for(int i=0;i<len;i++)
++n
+31	            vow++;
++n
+27	    for(int i=0;i<len;i++)
++n
+31	            vow++;
++nn
+Undefined command: "nn".  Try "help".
++n
+27	    for(int i=0;i<len;i++)
++n
+31	            vow++;
++n
+27	    for(int i=0;i<len;i++)
++n
+
+Breakpoint 2, has_nice_name (c=0x61feb8 "Ajiog")
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem07.c:38
+38	    return (vow>=2 && cons>=2);
++print vow
+$2 = 5
++q
+A debugging session is active.
+
+	Inferior 1 [process 14944] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

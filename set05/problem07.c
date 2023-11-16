@@ -23,10 +23,10 @@ void input(char *name)
 int has_nice_name(char *c)
 {
     int len=0,cons=0,vow=0;
-    for(len=0;c!='\0';len++);
+    for(len=1;c[len]!='\0';len++);
     for(int i=0;i<len;i++)
     {
-        if(c[i]=='a','e','i','o','u')
+        if(c[i]=='a' || c[i]=='e' || c[i]=='i' || c[i]=='o' || c[i]=='u' || c[i]=='A' || c[i]=='E' || c[i]=='I' || c[i]=='O' || c[i]=='U')
         {
             vow++;
         }
@@ -35,7 +35,7 @@ int has_nice_name(char *c)
             cons++;
         }
     }
-    return (vow>2 && cons>2);
+    return (vow>=2 && cons>=2);
 }
 
 void output(int res)
