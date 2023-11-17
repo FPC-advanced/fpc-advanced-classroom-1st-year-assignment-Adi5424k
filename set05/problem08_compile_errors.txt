@@ -1,0 +1,49 @@
+Compilation started at 11/17/2023, 10:35:16 AM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c: In function 'find_camel_weight':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c:45:29: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+         c[i].weight=3.1415*(pow(c[i].radius,3))*(sqrt(c[i].height*c[i].length));
+                             ^~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c:45:29: warning: incompatible implicit declaration of built-in function 'pow'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c:45:29: note: include '<math.h>' or provide a declaration of 'pow'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c:45:50: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+         c[i].weight=3.1415*(pow(c[i].radius,3))*(sqrt(c[i].height*c[i].length));
+                                                  ^~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c:45:50: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c:45:50: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 11/17/2023, 10:35:16 AM
+Compilation started at 11/17/2023, 10:35:34 AM
+Compilation finished at 11/17/2023, 10:35:34 AM
+Compilation started at 11/17/2023, 10:35:52 AM
+Compilation finished at 11/17/2023, 10:35:52 AM
+Compilation started at 11/17/2023, 10:43:09 AM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c:9:20: error: 'n' undeclared here (not in a function)
+ void input(Camel c[n], float *truck_weight);
+                    ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c: In function 'main':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c:20:11: error: type of formal parameter 1 is incomplete
+     input(c,&truck);
+           ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c: At top level:
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c:33:20: error: 'n' undeclared here (not in a function)
+ void input(Camel c[n], float *truck_weight)
+                    ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c: In function 'input':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c:35:19: error: 'n' undeclared (first use in this function)
+     for(int i=0;i<n;i++)
+                   ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c:35:19: note: each undeclared identifier is reported only once for each function it appears in
+Compilation finished at 11/17/2023, 10:43:09 AM
+Compilation started at 11/17/2023, 10:43:48 AM
+Compilation finished at 11/17/2023, 10:43:48 AM
+Compilation started at 11/17/2023, 10:44:36 AM
+Compilation finished at 11/17/2023, 10:44:36 AM
+Compilation started at 11/17/2023, 10:45:50 AM
+Compilation finished at 11/17/2023, 10:45:51 AM
+Compilation started at 11/17/2023, 10:46:11 AM
+Compilation finished at 11/17/2023, 10:46:12 AM
+Compilation started at 11/17/2023, 10:46:57 AM
+Compilation finished at 11/17/2023, 10:46:57 AM
+Compilation started at 11/17/2023, 10:47:07 AM
+Compilation finished at 11/17/2023, 10:47:07 AM
+Compilation started at 11/17/2023, 10:47:10 AM
+Compilation finished at 11/17/2023, 10:47:10 AM
