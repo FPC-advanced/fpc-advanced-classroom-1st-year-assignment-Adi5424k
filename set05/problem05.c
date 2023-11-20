@@ -30,7 +30,8 @@ float borga_X(int x)
     int a=1;
     while(err>0.000001)
     {
-        borg*=(float)x/factorial(j);
+        borg=(float)x/factorial(j);
+        err+=borg;
         j=j+2;
     }
 }
