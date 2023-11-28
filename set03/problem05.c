@@ -26,7 +26,7 @@ int input_array_size()
 void init_array(int n, int a[n])
 {
     int j=2;
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n && j<=n;i++)
     {
         a[i]=j;
         j++;
@@ -53,7 +53,8 @@ void output(int n, int a[n])
     {
         if(a[i]!=0)
         {
-            printf("%d, ",a[i]);
+            printf("%d ",a[i]);
         }
     }
+    printf("\n");
 }
