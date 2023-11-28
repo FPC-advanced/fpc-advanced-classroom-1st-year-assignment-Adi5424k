@@ -1,0 +1,32 @@
++b 38
+Breakpoint 1 at 0x40159f: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem03.c, line 38.
++r
+Starting program: c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05/./problem03.exe 
+[New Thread 9504.0x1514]
+[New Thread 9504.0x22d8]
+
+Breakpoint 1, find_weight (c=...)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem03.c:38
+38		return c.weight;
++print c
+$1 = {radius = 1, height = 2, length = 3, weight = 7.69507217}
++n
+39	}
++n
+main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem03.c:19
+19		output(c);
++print c
+$2 = {radius = 1, height = 2, length = 3, weight = 7.69507217}
++n
+20		return 0;
++n
+21	}
++n
+0x00401288 in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 9504] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

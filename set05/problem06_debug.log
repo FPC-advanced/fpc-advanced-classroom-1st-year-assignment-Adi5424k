@@ -1,0 +1,80 @@
++b 49
+Breakpoint 1 at 0x401601: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem06.c, line 49.
++r
+Starting program: c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05/./problem06.exe 
+[New Thread 1016.0x44b4]
+[New Thread 1016.0x4114]
+
+Breakpoint 1, odd_average (n=5, a=0x61fec8)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem06.c:49
+49	            j++;
++printa
+Undefined command: "printa".  Try "help".
++print a
+$1 = (int *) 0x61fec8
++print a[0]
+$2 = 1
++print a[4]
+$3 = 5
++n
+44	    for(int i=0;i<n;i++)
++n
+46	        if(a[i]!=0)
++n
+44	    for(int i=0;i<n;i++)
++n
+46	        if(a[i]!=0)
++print k
+$4 = 1
++print j
+$5 = 1
++n
+48	            k+=a[i];
++n
+
+Breakpoint 1, odd_average (n=5, a=0x61fec8)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem06.c:49
+49	            j++;
++n
+44	    for(int i=0;i<n;i++)
++n
+46	        if(a[i]!=0)
++n
+44	    for(int i=0;i<n;i++)
++n
+46	        if(a[i]!=0)
++n
+48	            k+=a[i];
++n
+
+Breakpoint 1, odd_average (n=5, a=0x61fec8)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem06.c:49
+49	            j++;
++print k
+$6 = 9
++print j
+$7 = 2
++n
+44	    for(int i=0;i<n;i++)
++n
+52	    return k/j;
++n
+53	}
++n
+main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem06.c:14
+14	    output(avg);
++n
+15	    return 0;
++n
+16	}
++n
+0x00401288 in __register_frame_info ()
++print k
+No symbol "k" in current context.
++q
+A debugging session is active.
+
+	Inferior 1 [process 1016] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

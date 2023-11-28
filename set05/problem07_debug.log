@@ -47,3 +47,62 @@ A debugging session is active.
 	Inferior 1 [process 14944] will be killed.
 
 Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
++b 31
+Breakpoint 1 at 0x40150d: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem07.c, line 31.
++r
+Starting program: c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05/./problem07.exe 
+[New Thread 8460.0xee8]
+[New Thread 8460.0x38f8]
+
+Breakpoint 1, has_nice_name (c=0x61feb8 "ado")
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem07.c:31
+warning: Source file is more recent than executable.
+31	            vow++;
++print vow
+$1 = 0
++n
+27	    for(int i=0;i<len;i++)
++print cons
+$2 = 0
++n
+
+Breakpoint 1, has_nice_name (c=0x61feb8 "ado")
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem07.c:31
+31	            vow++;
++n
+27	    for(int i=0;i<len;i++)
++n
+
+Breakpoint 1, has_nice_name (c=0x61feb8 "ado")
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem07.c:31
+31	            vow++;
++print vow
+$3 = 2
++n
+27	    for(int i=0;i<len;i++)
++print cons
+$4 = 0
++n
+38	    return (vow>=2 && cons>=2);
++print vow
+$5 = 3
++print cons
+$6 = 0
++n
+39	}
++n
+main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem07.c:13
+13	    output(r);
++n
+14	    return 0;
++n
+15	}
++n
+0x00401288 in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 8460] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

@@ -1,0 +1,38 @@
+Compilation started at 11/27/2023, 10:36:07 AM
+Compilation finished at 11/27/2023, 10:36:07 AM
+Compilation started at 11/27/2023, 10:36:55 AM
+Compilation finished at 11/27/2023, 10:36:56 AM
+Compilation started at 11/27/2023, 10:37:42 AM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/27/2023, 10:37:43 AM
+Compilation started at 11/27/2023, 10:37:52 AM
+Compilation finished at 11/27/2023, 10:37:52 AM
+Compilation started at 11/27/2023, 10:37:58 AM
+Compilation finished at 11/27/2023, 10:37:59 AM
+Compilation started at 11/27/2023, 10:38:55 AM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/27/2023, 10:38:55 AM
+Compilation started at 11/27/2023, 10:39:02 AM
+Compilation finished at 11/27/2023, 10:39:03 AM
+Compilation started at 11/27/2023, 10:53:35 AM
+Compilation finished at 11/27/2023, 10:53:36 AM
+Compilation started at 11/27/2023, 11:31:22 AM
+Compilation finished at 11/27/2023, 11:31:22 AM
+Compilation started at 11/27/2023, 11:33:11 AM
+Compilation finished at 11/27/2023, 11:33:12 AM
+Compilation started at 11/27/2023, 11:33:38 AM
+Compilation finished at 11/27/2023, 11:33:38 AM
+Compilation started at 11/27/2023, 11:34:10 AM
+Compilation finished at 11/27/2023, 11:34:11 AM
+Compilation started at 11/27/2023, 11:34:40 AM
+Compilation finished at 11/27/2023, 11:34:40 AM
+Compilation started at 11/27/2023, 11:37:23 AM
+Compilation finished at 11/27/2023, 11:37:23 AM
+Compilation started at 11/27/2023, 11:37:48 AM
+Compilation finished at 11/27/2023, 11:37:48 AM
+Compilation started at 11/27/2023, 11:38:11 AM
+Compilation finished at 11/27/2023, 11:38:11 AM
+Compilation started at 11/27/2023, 11:40:03 AM
+Compilation finished at 11/27/2023, 11:40:03 AM

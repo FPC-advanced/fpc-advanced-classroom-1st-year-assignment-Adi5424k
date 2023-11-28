@@ -1,0 +1,229 @@
++l
+warning: Source file is more recent than executable.
+1	#include <stdio.h>
+2	
+3	int input();
+4	float borga_X(int x);
+5	void output(int x, float result);
+6	
+7	int main()
+8	{
+9	    int x;
+10	    x=input();
++l
+11	    float borg; 
+12	    borg=borga_X(x);
+13	    output(x,borg);
+14	    return 0;
+15	}
+16	
+17	int input()
+18	{
+19	    int x;
+20	    printf("Enter number: ");
++l
+21	    scanf("%d",&x);
+22	    return x;
+23	}
+24	
+25	float borga_X(int x)
+26	{
+27	    float borg=1.0,err=1.0;
+28	    int j=1;
+29	    while(err>0.000001)
+30	    {
++l
+31	        err*=(float)x/(2*j)*(2*j+1);
+32	        borg+=err;
+33	        j++;
+34	    }
+35	    return err;
+36	}
+37	
+38	void output(int x, float result)
+39	{
+40	    printf("fibo(%d)=%f",x,result);
++l
+41	}+b 11
+Breakpoint 1 at 0x401477: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.c, line 11.
++r
+Starting program: c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05/./problem05.exe 
+[New Thread 19916.0x4bcc]
+[New Thread 19916.0x4fc8]
+
+Breakpoint 1, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.c:12
+12	    borg=borga_X(x);
++print x
+$1 = 5
++b 35
+Breakpoint 2 at 0x401532: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.c, line 35.
++n
+[New Thread 19916.0x2448]
+
+Program received signal SIGINT, Interrupt.
+[Switching to Thread 19916.0x2448]
+0x75b07e7c in KERNELBASE!CtrlRoutine () from C:\Windows\SysWOW64\KernelBase.dll
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) 
+Starting program: c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05/./problem05.exe 
+[New Thread 6564.0x4ac]
+[New Thread 6564.0x17c8]
+
+Breakpoint 1, main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.c:12
+12	    borg=borga_X(x);
++n
+[New Thread 6564.0x4b00]
+
+Program received signal SIGINT, Interrupt.
+[Switching to Thread 6564.0x4b00]
+0x75b07e7c in KERNELBASE!CtrlRoutine () from C:\Windows\SysWOW64\KernelBase.dll
++q
+A debugging session is active.
+
+	Inferior 1 [process 6564] will be killed.
+
+Quit anyway? (y or n) +b 34
+Breakpoint 1 at 0x401531: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.c, line 34.
++r
+Starting program: c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05/./problem05.exe 
+[New Thread 18356.0x47b8]
+[New Thread 18356.0x4760]
+
+Breakpoint 1, borga_X (x=5)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.c:34
+warning: Source file is more recent than executable.
+34	    return borg;
++print borg
+$1 = 2.06827116
++n
+35	}
++n
+main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.c:13
+13	    output(x,borg);
++n
+14	    return 0;
++n
+15	}
++n
+0x00401288 in __register_frame_info ()
++b 31
+Breakpoint 2 at 0x40150c: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.c, line 31.
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+Starting program: c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05/./problem05.exe 
+[New Thread 7684.0x9d8]
+[New Thread 7684.0x4344]
+
+Breakpoint 2, borga_X (x=5)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.c:31
+31	        borg+=err;
++print err
+$2 = 0.833333313
++n
+32	        j++;
++n
+28	    while(err>0.000001)
++n
+30	        err*=(float)(x)/((2*j)*(2*j+1));
++n
+
+Breakpoint 2, borga_X (x=5)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.c:31
+31	        borg+=err;
++n
+32	        j++;
++n
+28	    while(err>0.000001)
++n
+30	        err*=(float)(x)/((2*j)*(2*j+1));
++n
+
+Breakpoint 2, borga_X (x=5)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.c:31
+31	        borg+=err;
++n
+32	        j++;
++n
+28	    while(err>0.000001)
++n
+30	        err*=(float)(x)/((2*j)*(2*j+1));
++print err
+$3 = 0.0248015858
++n
+
+Breakpoint 2, borga_X (x=5)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.c:31
+31	        borg+=err;
++n
+32	        j++;
++n
+28	    while(err>0.000001)
++n
+30	        err*=(float)(x)/((2*j)*(2*j+1));
++n
+
+Breakpoint 2, borga_X (x=5)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.c:31
+31	        borg+=err;
++n
+32	        j++;
++n
+28	    while(err>0.000001)
++n
+30	        err*=(float)(x)/((2*j)*(2*j+1));
++n
+
+Breakpoint 2, borga_X (x=5)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.c:31
+31	        borg+=err;
++n
+32	        j++;
++n
+28	    while(err>0.000001)
++print err
+$4 = 2.5092254e-006
++n
+30	        err*=(float)(x)/((2*j)*(2*j+1));
++n
+
+Breakpoint 2, borga_X (x=5)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.c:31
+31	        borg+=err;
++n
+32	        j++;
++n
+28	    while(err>0.000001)
++n
+
+Breakpoint 1, borga_X (x=5)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.c:34
+34	    return borg;
++n
+35	}
++n
+main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem05.c:13
+13	    output(x,borg);
++n
+14	    return 0;
++n
+15	}
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++y
+Undefined command: "y".  Try "help".
++q
+A debugging session is active.
+
+	Inferior 1 [process 7684] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

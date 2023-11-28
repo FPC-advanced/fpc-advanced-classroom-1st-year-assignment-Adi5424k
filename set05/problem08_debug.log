@@ -1,0 +1,43 @@
++b 53
+Breakpoint 1 at 0x4016c5: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c, line 53.
++b 62
+Breakpoint 2 at 0x401705: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c, line 62.
++r
+Starting program: c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05/./problem08.exe 
+[New Thread 16180.0x4694]
+[New Thread 16180.0xd1c]
+
+Breakpoint 1, find_camel_weight (n=3, c=0x61fe9c)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c:54
+54	}
++print truck
+No symbol "truck" in current context.
++n
+main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c:22
+22	    total=compute_total_weight(n,c,truck);
++print truck
+$1 = 2000
++n
+
+Breakpoint 2, compute_total_weight (n=3, c=0x61fe9c, truck_weight=2000)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c:63
+63	    return total;
++n
+64	}
++n
+main ()
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set05\problem08.c:23
+23	    output(total);
++n
+24	    return 0;
++n
+25	}
++n
+0x00401288 in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 16180] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
