@@ -26,8 +26,9 @@ int input_array_size()
 
 void init_array(int n, int a[n])
 {
+    a[n-1]=0;
     int j=2;
-    for(int i=0;i<n && j<=n;i++)
+    for(int i=0;i<n-1;i++)
     {
         a[i]=j;
         j++;
@@ -40,13 +41,9 @@ void erotosthenes_sieve(int n, int a[n])
     {
         if(a[i]!=0)
         {
-            int k=a[i];
-            for(int j=i+1;j<n;j++)
+            for(int j=(a[i]*a[i]);j<=n;j+=a[i])
             {
-                if(a[j]%k==0)
-                {
-                    a[j]=0;
-                }
+                a[j-2]=0;
             }
         } 
     }  
