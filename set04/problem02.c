@@ -38,6 +38,9 @@ Fraction smallest3(Fraction x, Fraction y, Fraction z)
     Fraction r;
     r.den=find_lcm3(x.den,y.den,z.den);
     r.num=(x.num*r.den/x.den)<(y.num*r.den/y.den)?((x.num*r.den/x.den)<(z.num*r.den/z.den)?(x.num*r.den/x.den):(z.num*r.den/z.den)):((y.num*r.den/y.den)<(z.num*r.den/z.den)?(y.num*r.den/y.den):(z.num*r.den/z.den));
+    int gcd=find_gcd(r.num,r.den);
+    r.num/=gcd;
+    r.den/=gcd;
     return r;
 }
 
