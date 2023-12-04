@@ -90,3 +90,11 @@ c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
 Compilation finished at 12/4/2023, 4:37:16 PM
 Compilation started at 12/4/2023, 4:38:45 PM
 Compilation finished at 12/4/2023, 4:38:45 PM
+Compilation started at 12/4/2023, 4:54:30 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c: In function 'find_gcd':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c:34:5: error: expected ';' before '}' token
+     }
+     ^
+Compilation finished at 12/4/2023, 4:54:30 PM
+Compilation started at 12/4/2023, 4:54:38 PM
+Compilation finished at 12/4/2023, 4:54:39 PM

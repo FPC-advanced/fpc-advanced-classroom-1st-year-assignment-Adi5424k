@@ -11,25 +11,34 @@ Fraction input()
     return x;
 }
 
-Fraction smallest3(Fraction x, Fraction y, Fraction z)
+int find_gcd(int a, int b)
 {
-    float xf,yf,zf;
-    xf=(float)x.num/x.den;
-    yf=(float)y.num/y.den;
-    zf=(float)z.num/z.den;
-    float k=(xf<yf)?((xf<zf)?xf:zf):((yf<zf)?yf:zf);
-    if(k==xf)
+    if(b==0)
     {
-        return x;
-    }
-    else if(k==yf)
-    {
-        return y;
+        return a;
     }
     else
     {
-        return z;
+        return find_gcd(b,a%b);
     }
+}
+
+int find_lcm(int a,int b)
+{
+    return (a*b)/find_gcd(a,b);
+}
+
+int find_lcm3(int a, int b, int c)
+{
+    return find_lcm(find_lcm(a,b),c);
+}
+
+Fraction smallest3(Fraction x, Fraction y, Fraction z)
+{
+    Fraction r;
+    r.den=find_lcm3(x.den,y.den,z.den);
+    r.num=(x.num*r.den/x.den)<(y.num*r.den/y.den)?((x.num*r.den/x.den)<(z.num*r.den/z.den)?(x.num*r.den/x.den):(z.num*r.den/z.den)):((y.num*r.den/y.den)<(z.num*r.den/z.den)?(y.num*r.den/y.den):(z.num*r.den/z.den));
+    return r;
 }
 
 void output(Fraction x,Fraction y,Fraction z,Fraction r)

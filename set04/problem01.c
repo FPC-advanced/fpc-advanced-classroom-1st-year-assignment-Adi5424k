@@ -24,16 +24,14 @@ void input(int *num1, int *den1, int *num2, int *den2)
 
 int find_gcd(int a, int b)
 {
-    int k,gcd;
-    k=a<b?a:b;
-    for(int i=1;i<=k;i++)
+    if(b==0)
     {
-        if(a%i==0 && b%i==0)
-        {
-            gcd=i;
-        }
+        return a;
     }
-    return gcd;
+    else
+    {
+        return find_gcd(b,a%b);
+    }
 }
 
 void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
