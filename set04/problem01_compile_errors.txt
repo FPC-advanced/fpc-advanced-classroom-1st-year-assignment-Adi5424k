@@ -28,3 +28,65 @@ Compilation started at 11/7/2023, 12:11:06 PM
 Compilation finished at 11/7/2023, 12:11:07 PM
 Compilation started at 11/7/2023, 12:12:06 PM
 Compilation finished at 11/7/2023, 12:12:06 PM
+Compilation started at 12/4/2023, 4:31:55 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c: In function 'add':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c:52:22: warning: passing argument 1 of 'gcd' makes integer from pointer without a cast [-Wint-conversion]
+         int gcdd=gcd(res_num,res_den);
+                      ^~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c:25:5: note: expected 'int' but argument is of type 'int *'
+ int gcd(int res_num, int res_den)
+     ^~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c:52:30: warning: passing argument 2 of 'gcd' makes integer from pointer without a cast [-Wint-conversion]
+         int gcdd=gcd(res_num,res_den);
+                              ^~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c:25:5: note: expected 'int' but argument is of type 'int *'
+ int gcd(int res_num, int res_den)
+     ^~~
+Compilation finished at 12/4/2023, 4:31:55 PM
+Compilation started at 12/4/2023, 4:33:48 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c: In function 'add':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c:53:26: warning: passing argument 1 of 'find_gcd' makes integer from pointer without a cast [-Wint-conversion]
+         int gcd=find_gcd(res_num,res_den);
+                          ^~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c:25:5: note: expected 'int' but argument is of type 'int *'
+ int find_gcd(int a, int b)
+     ^~~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c:53:34: warning: passing argument 2 of 'find_gcd' makes integer from pointer without a cast [-Wint-conversion]
+         int gcd=find_gcd(res_num,res_den);
+                                  ^~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c:25:5: note: expected 'int' but argument is of type 'int *'
+ int find_gcd(int a, int b)
+     ^~~~~~~~
+Compilation finished at 12/4/2023, 4:33:48 PM
+Compilation started at 12/4/2023, 4:35:50 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c: In function 'add':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c:53:18: warning: passing argument 1 of 'find_gcd' makes integer from pointer without a cast [-Wint-conversion]
+         find_gcd(res_num,res_den,&gcd);
+                  ^~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c:25:6: note: expected 'int' but argument is of type 'int *'
+ void find_gcd(int a, int b, int *gcd)
+      ^~~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c:53:26: warning: passing argument 2 of 'find_gcd' makes integer from pointer without a cast [-Wint-conversion]
+         find_gcd(res_num,res_den,&gcd);
+                          ^~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c:25:6: note: expected 'int' but argument is of type 'int *'
+ void find_gcd(int a, int b, int *gcd)
+      ^~~~~~~~
+Compilation finished at 12/4/2023, 4:35:50 PM
+Compilation started at 12/4/2023, 4:37:16 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c: In function 'add':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c:53:18: warning: passing argument 1 of 'find_gcd' makes integer from pointer without a cast [-Wint-conversion]
+         find_gcd(res_num,res_den,&gcd);
+                  ^~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c:25:6: note: expected 'int' but argument is of type 'int *'
+ void find_gcd(int a, int b, int *gcd)
+      ^~~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c:53:26: warning: passing argument 2 of 'find_gcd' makes integer from pointer without a cast [-Wint-conversion]
+         find_gcd(res_num,res_den,&gcd);
+                          ^~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem01.c:25:6: note: expected 'int' but argument is of type 'int *'
+ void find_gcd(int a, int b, int *gcd)
+      ^~~~~~~~
+Compilation finished at 12/4/2023, 4:37:16 PM
+Compilation started at 12/4/2023, 4:38:45 PM
+Compilation finished at 12/4/2023, 4:38:45 PM

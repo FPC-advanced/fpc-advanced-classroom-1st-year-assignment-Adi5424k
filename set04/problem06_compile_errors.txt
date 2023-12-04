@@ -96,3 +96,54 @@ c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
          tok=strtok(NULL," ");
             ^
 Compilation finished at 11/13/2023, 10:45:20 AM
+Compilation started at 11/27/2023, 10:28:05 AM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c: In function 'count_words':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:26:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char tok=strtok(string," ");
+              ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:27:14: warning: comparison between pointer and integer
+     while(tok!=NULL)
+              ^~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:30:12: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         tok=strtok(NULL," ");
+            ^
+Compilation finished at 11/27/2023, 10:28:05 AM
+Compilation started at 11/27/2023, 10:28:52 AM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c: In function 'count_words':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:26:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char tok=strtok(string," ");
+              ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:27:14: warning: comparison between pointer and integer
+     while(tok!=NULL)
+              ^~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:30:12: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         tok=strtok(NULL," ");
+            ^
+Compilation finished at 11/27/2023, 10:28:52 AM
+Compilation started at 11/27/2023, 10:32:04 AM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c: In function 'count_words':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:26:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char tok=strtok(string," ");
+              ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:27:14: warning: comparison between pointer and integer
+     while(tok!=NULL)
+              ^~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:30:12: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         tok=strtok(NULL," ");
+            ^
+Compilation finished at 11/27/2023, 10:32:04 AM
+Compilation started at 12/4/2023, 2:01:44 PM
+Compilation finished at 12/4/2023, 2:01:44 PM
+Compilation started at 12/4/2023, 2:02:50 PM
+Compilation finished at 12/4/2023, 2:02:50 PM
+Compilation started at 12/4/2023, 2:03:21 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c: In function 'count_words':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:26:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char tok=strtok(string," ");
+              ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\set04\problem06.c:30:12: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         tok=strtok(NULL," ");
+            ^
+Compilation finished at 12/4/2023, 2:03:21 PM
+Compilation started at 12/4/2023, 2:03:37 PM
+Compilation finished at 12/4/2023, 2:03:38 PM
