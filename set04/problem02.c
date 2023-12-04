@@ -35,12 +35,10 @@ int find_lcm3(int a, int b, int c)
 
 Fraction smallest3(Fraction x, Fraction y, Fraction z)
 {
-    Fraction r;
-    r.den=find_lcm3(x.den,y.den,z.den);
-    r.num=(x.num*r.den/x.den)<(y.num*r.den/y.den)?((x.num*r.den/x.den)<(z.num*r.den/z.den)?(x.num*r.den/x.den):(z.num*r.den/z.den)):((y.num*r.den/y.den)<(z.num*r.den/z.den)?(y.num*r.den/y.den):(z.num*r.den/z.den));
-    int gcd=find_gcd(r.num,r.den);
-    r.num/=gcd;
-    r.den/=gcd;
+    int a=(x.num*y.den*z.den);
+    int b=(y.num*x.den*z.den);
+    int c=(z.num*x.den*y.den);
+    Fraction r=(a<b)?((a<c)?x:z):((b<c)?y:z);
     return r;
 }
 
