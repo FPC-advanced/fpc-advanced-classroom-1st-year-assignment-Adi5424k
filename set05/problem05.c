@@ -24,11 +24,11 @@ int input()
 
 float borga_X(int x)
 {
-    float borg=1.0,err=1.0,j=1.0;
-    while(err>0.000001)
+    float borg=1.0,term=1.0,j=1.0;
+    while(term>0.000001)
     {
-        err*=(float)(x)/((2*j)*(2*j+1));
-        borg+=err;
+        term*=(float)(x)/((2*j)*(2*j+1));
+        borg+=term;
         j++;
     }
     return borg;
