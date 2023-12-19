@@ -1,5 +1,15 @@
 #include <stdio.h>
 
+typedef struct Points
+{
+	int score;
+} points;
+
+typedef struct Fouls
+{
+	int foul;
+} fouls;
+
 typedef struct Fritacole
 {
     char *name;
@@ -8,6 +18,8 @@ typedef struct Fritacole
     int interest;
     int ability;
     int discipline;
+	points p;
+	fouls fo;
 } fritacole;
 
 typedef struct Team
@@ -16,28 +28,11 @@ typedef struct Team
     fritacole f[100];
 } team;
 
-typedef struct Points
-{
-    team t1;
-    int p1[100];
-    team t2;
-    int p2[100];
-} points;
-
-typedef struct fouls
-{
-    team t1;
-    int f1[100];
-    team t2;
-    int f2[100];
-} fouls;
 
 typedef struct Game
 {
     team t1;
     team t2;
-    points p;
-    fouls f;
 } game;
 
 void input_team(game *g);
@@ -53,8 +48,7 @@ int main()
 {
 	game g;
 	input_team(&g);
-	input_points(&g);
-	input_fouls(&g);
+	input_game(&g);
 	int c=compare_teams(g);
 	int f=compare_fritacole(g);
 	int w=verify_win(g,c,f);
@@ -88,31 +82,27 @@ void input_team(game *g)
     }
 }
 
-void input_points(game *g)
+void input_game(game *g)
 {
 	for(int i=0;i<g->t1.players;i++)
 	{
 		printf("Enter the points scored by player %d of team 1: ",i+1);
-		scanf("%d",&g->p.p1[i]);
+		scanf("%d",&g->t1.f[i].p.score);
 	}
 	for(int i=0;i<g->t2.players;i++)
 	{
 		printf("Enter the points scored by player %d of team 2: ",i+1);
-		scanf("%d",&g->p.p2[i]);
+		scanf("%d",&g->t2.f[i].p.score);
 	}
-}
-
-void input_fouls(game *g)
-{
 	for(int i=0;i<g->t1.players;i++)
 	{
 		printf("Enter the fouls made by player %d of team 1: ",i+1);
-		scanf("%d",&g->f.f1[i]);
+		scanf("%d",&g->t1.f[i].fo.foul);
 	}
 	for(int i=0;i<g->t2.players;i++)
 	{
 		printf("Enter the fouls made by player %d of team 2: ",i+1);
-		scanf("%d",&g->f.f2[i]);
+		scanf("%d",&g->t2.f[i].fo.foul);
 	}
 }
 
@@ -121,20 +111,20 @@ int compare_teams(game g)
 	int t1score=0,t2score=0;
 	for(int i=0;i<g.t1.players;i++)
 	{
-		t1score+=g.p.p1[i];
+		t1score+=g.t1.f[i].p.score;
 	}
 	for(int i=0;i<g.t2.players;i++)
 	{
-		t2score+=g.p.p2[i];
+		t2score+=g.t2.f[i].p.score;
 	}
 	int t1fouls=0,t2fouls=0;
 	for(int i=0;i<g.t1.players;i++)
 	{
-		t1fouls+=g.f.f1[i];
+		t1fouls+=g.t1.f[i].fo.foul;
 	}
 	for(int i=0;i<g.t2.players;i++)
 	{
-		t2fouls+=g.f.f2[i];
+		t2fouls+=g.t2.f[i].fo.foul;
 	}
 	if(t1score==t2score)
 	{
