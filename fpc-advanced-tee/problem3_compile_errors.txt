@@ -1,0 +1,920 @@
+Compilation started at 12/19/2023, 2:04:50 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fri':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter name: ");
+     ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%99[^\n]",&f.name);
+     ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_team':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:84:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Enter number of players: ");
+     ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:84:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:85:5: warning: incompatible implicit declaration of built-in function 'scanf'
+     scanf("%d",&t.players);
+     ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:85:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_points':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:97:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 1: ",p.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:97:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:98:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&p.p1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:98:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:102:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 2: ",p.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:102:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:103:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&p.p2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:103:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fouls':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:111:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 1: ",f.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:111:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:112:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&f.f1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:112:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:116:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 2: ",f.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:116:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:117:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&f.f2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:117:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'output':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:195:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team won.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:195:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:199:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team did not win.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:199:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 12/19/2023, 2:04:50 PM
+Compilation started at 12/19/2023, 2:06:26 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fri':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter name: ");
+     ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%99[^\n]",f.name);
+     ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_team':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:84:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Enter number of players: ");
+     ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:84:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:85:5: warning: incompatible implicit declaration of built-in function 'scanf'
+     scanf("%d",&t.players);
+     ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:85:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_points':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:97:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 1: ",p.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:97:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:98:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&p.p1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:98:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:102:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 2: ",p.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:102:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:103:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&p.p2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:103:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fouls':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:111:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 1: ",f.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:111:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:112:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&f.f1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:112:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:116:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 2: ",f.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:116:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:117:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&f.f2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:117:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'output':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:195:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team won.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:195:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:199:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team did not win.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:199:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 12/19/2023, 2:06:27 PM
+Compilation started at 12/19/2023, 2:08:10 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fri':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter name: ");
+     ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%s",f.name);
+     ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_team':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:84:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Enter number of players: \n");
+     ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:84:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:85:5: warning: incompatible implicit declaration of built-in function 'scanf'
+     scanf("%d",&t.players);
+     ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:85:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_points':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:97:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 1: ",p.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:97:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:98:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&p.p1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:98:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:102:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 2: ",p.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:102:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:103:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&p.p2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:103:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fouls':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:111:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 1: ",f.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:111:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:112:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&f.f1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:112:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:116:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 2: ",f.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:116:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:117:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&f.f2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:117:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'output':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:195:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team won.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:195:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:199:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team did not win.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:199:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 12/19/2023, 2:08:10 PM
+Compilation started at 12/19/2023, 2:12:41 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fri':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter name: ");
+     ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%s",f.name);
+     ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_team':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:84:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Enter number of players: \n");
+     ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:84:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:85:5: warning: incompatible implicit declaration of built-in function 'scanf'
+     scanf("%d",&t.players);
+     ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:85:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_points':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:97:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 1: ",p.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:97:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:98:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&p.p1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:98:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:102:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 2: ",p.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:102:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:103:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&p.p2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:103:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fouls':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:111:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 1: ",f.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:111:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:112:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&f.f1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:112:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:116:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 2: ",f.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:116:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:117:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&f.f2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:117:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'output':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:195:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team won.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:195:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:199:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team did not win.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:199:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 12/19/2023, 2:12:42 PM
+Compilation started at 12/19/2023, 2:15:41 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fri':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter name: ");
+     ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%s",f.name);
+     ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_team':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:84:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Enter number of players: \n");
+     ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:84:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:85:5: warning: incompatible implicit declaration of built-in function 'scanf'
+     scanf("%d",&t.players);
+     ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:85:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_points':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:98:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 1: ",p.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:98:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:99:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&p.p1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:99:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:103:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 2: ",p.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:103:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:104:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&p.p2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:104:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fouls':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:112:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 1: ",f.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:112:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:113:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&f.f1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:113:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:117:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 2: ",f.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:117:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:118:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&f.f2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:118:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'output':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:196:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team won.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:196:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:200:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team did not win.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:200:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 12/19/2023, 2:15:41 PM
+Compilation started at 12/19/2023, 2:25:04 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fri':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("Enter name, height, integrity, interest, ability, discipline");
+  ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:2: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%s %f %d %d %d %d",f.name,&f.height,&f.integrity,&f.interest,&f.ability,&f.discipline);
+  ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:2: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_team':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:74:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Enter number of players: \n");
+     ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:74:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:75:5: warning: incompatible implicit declaration of built-in function 'scanf'
+     scanf("%d",&t.players);
+     ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:75:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_points':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:87:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 1: ",p.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:87:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:88:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&p.p1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:88:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:92:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 2: ",p.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:92:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:93:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&p.p2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:93:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fouls':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:101:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 1: ",f.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:101:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:102:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&f.f1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:102:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:106:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 2: ",f.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:106:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:107:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&f.f2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:107:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'output':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:185:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team won.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:185:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:189:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team did not win.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:189:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 12/19/2023, 2:25:04 PM
+Compilation started at 12/19/2023, 2:32:06 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fri':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:70:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("Enter name, height, integrity, interest, ability, discipline:\n");
+  ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:70:2: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:70:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:71:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%s %f %d %d %d %d",f.name,&f.height,&f.integrity,&f.interest,&f.ability,&f.discipline);
+  ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:71:2: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:71:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_teamsize':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:77:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Enter number of players: \n");
+     ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:77:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:78:5: warning: incompatible implicit declaration of built-in function 'scanf'
+     scanf("%d",&t.players);
+     ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:78:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_team':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:83:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Enter number of players: \n");
+     ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:83:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:84:5: warning: incompatible implicit declaration of built-in function 'scanf'
+     scanf("%d",&t.players);
+     ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:84:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_points':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:96:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 1: ",p.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:96:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:97:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&p.p1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:97:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:101:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 2: ",p.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:101:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:102:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&p.p2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:102:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fouls':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:110:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 1: ",f.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:110:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:111:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&f.f1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:111:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:115:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 2: ",f.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:115:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:116:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&f.f2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:116:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'output':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:194:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team won.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:194:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:198:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team did not win.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:198:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 12/19/2023, 2:32:06 PM
+Compilation started at 12/19/2023, 2:33:05 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fri':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:70:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("Enter name, height, integrity, interest, ability, discipline:\n");
+  ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:70:2: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:70:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:71:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%s %f %d %d %d %d",f.name,&f.height,&f.integrity,&f.interest,&f.ability,&f.discipline);
+  ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:71:2: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:71:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_teamsize':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:77:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Enter number of players: \n");
+     ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:77:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:78:5: warning: incompatible implicit declaration of built-in function 'scanf'
+     scanf("%d",&t.players);
+     ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:78:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_team':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:83:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Enter number of players: \n");
+     ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:83:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:84:5: warning: incompatible implicit declaration of built-in function 'scanf'
+     scanf("%d",&t.players);
+     ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:84:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_points':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:96:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 1: ",p.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:96:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:97:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&p.p1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:97:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:101:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 2: ",p.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:101:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:102:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&p.p2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:102:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fouls':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:110:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 1: ",f.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:110:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:111:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&f.f1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:111:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:115:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 2: ",f.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:115:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:116:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&f.f2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:116:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'output':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:194:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team won.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:194:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:198:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team did not win.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:198:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 12/19/2023, 2:33:05 PM
+Compilation started at 12/19/2023, 2:38:05 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fri':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:70:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("Enter name, height, integrity, interest, ability, discipline:\n");
+  ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:70:2: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:70:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:71:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%s %f %d %d %d %d",f.name,&f.height,&f.integrity,&f.interest,&f.ability,&f.discipline);
+  ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:71:2: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:71:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_teamsize':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:78:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Enter number of players: \n");
+     ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:78:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:79:5: warning: incompatible implicit declaration of built-in function 'scanf'
+     scanf("%d",&t.players);
+     ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:79:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_team':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:87:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("Fritacole no. %d\n",i+1);
+         ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:87:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_points':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:96:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 1: ",p.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:96:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:97:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&p.p1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:97:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:101:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 2: ",p.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:101:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:102:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&p.p2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:102:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fouls':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:110:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 1: ",f.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:110:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:111:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&f.f1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:111:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:115:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 2: ",f.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:115:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:116:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&f.f2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:116:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'output':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:194:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team won.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:194:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:198:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team did not win.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:198:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 12/19/2023, 2:38:05 PM
+Compilation started at 12/19/2023, 2:43:17 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'main':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:53:13: error: incompatible type for argument 1 of 'input_team'
+  input_team(g.t1);
+             ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:41:6: note: expected 'game {aka struct Game}' but argument is of type 'team {aka struct Team}'
+ void input_team(game g);
+      ^~~~~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:54:13: error: incompatible type for argument 1 of 'input_team'
+  input_team(g.t2);
+             ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:41:6: note: expected 'game {aka struct Game}' but argument is of type 'team {aka struct Team}'
+ void input_team(game g);
+      ^~~~~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:55:15: error: incompatible type for argument 1 of 'input_points'
+  input_points(g.p);
+               ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:42:6: note: expected 'game {aka struct Game}' but argument is of type 'points {aka struct Points}'
+ void input_points(game g);
+      ^~~~~~~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:56:14: error: incompatible type for argument 1 of 'input_fouls'
+  input_fouls(g.f);
+              ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:43:6: note: expected 'game {aka struct Game}' but argument is of type 'fouls {aka struct fouls}'
+ void input_fouls(game g);
+      ^~~~~~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fri':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("Enter name, height, integrity, interest, ability, discipline:\n");
+  ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:2: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%s %f %d %d %d %d",f.name,&f.height,&f.integrity,&f.interest,&f.ability,&f.discipline);
+  ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:2: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:68:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_team':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:74:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Enter number of players in team 1: \n");
+     ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:74:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:75:5: warning: incompatible implicit declaration of built-in function 'scanf'
+     scanf("%d",&g.t1.players);
+     ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:75:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_points':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:94:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 1: ",g.p.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:94:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:95:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&g.p.p1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:95:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:99:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the points scored by player %s of team 2: ",g.p.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:99:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:100:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&g.p.p2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:100:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_fouls':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:108:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 1: ",g.f.t1.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:108:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:109:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&g.f.f1[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:109:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:113:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the fouls made by player %d of team 2: ",g.f.t2.f[i].name);
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:113:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:114:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%d",&g.f.f2[i]);
+   ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:114:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'output':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:192:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team won.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:192:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:196:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("The better team did not win.\n");
+   ^~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:196:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 12/19/2023, 2:43:17 PM
+Compilation started at 12/19/2023, 2:44:08 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'main':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:55:13: error: incompatible type for argument 1 of 'input_team'
+  input_team(g.t1);
+             ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:43:6: note: expected 'game {aka struct Game}' but argument is of type 'team {aka struct Team}'
+ void input_team(game g);
+      ^~~~~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:56:13: error: incompatible type for argument 1 of 'input_team'
+  input_team(g.t2);
+             ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:43:6: note: expected 'game {aka struct Game}' but argument is of type 'team {aka struct Team}'
+ void input_team(game g);
+      ^~~~~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:57:15: error: incompatible type for argument 1 of 'input_points'
+  input_points(g.p);
+               ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:44:6: note: expected 'game {aka struct Game}' but argument is of type 'points {aka struct Points}'
+ void input_points(game g);
+      ^~~~~~~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:58:14: error: incompatible type for argument 1 of 'input_fouls'
+  input_fouls(g.f);
+              ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:45:6: note: expected 'game {aka struct Game}' but argument is of type 'fouls {aka struct fouls}'
+ void input_fouls(game g);
+      ^~~~~~~~~~~
+Compilation finished at 12/19/2023, 2:44:08 PM
+Compilation started at 12/19/2023, 2:44:50 PM
+Compilation finished at 12/19/2023, 2:44:50 PM
+Compilation started at 12/19/2023, 2:50:49 PM
+Compilation finished at 12/19/2023, 2:50:49 PM
+Compilation started at 12/19/2023, 2:54:41 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'input_team':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:74:2: error: unknown type name 'gamme'
+  gamme g;
+  ^~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:76:18: error: request for member 't1' in something not a structure or union
+     scanf("%d",&g.t1.players);
+                  ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:77:20: error: request for member 't1' in something not a structure or union
+     for(int i=0;i<g.t1.players;i++)
+                    ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:80:10: error: request for member 't1' in something not a structure or union
+         g.t1.f[i]=input_fri();
+          ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:83:18: error: request for member 't2' in something not a structure or union
+     scanf("%d",&g.t2.players);
+                  ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:84:20: error: request for member 't2' in something not a structure or union
+     for(int i=0;i<g.t2.players;i++)
+                    ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:87:10: error: request for member 't2' in something not a structure or union
+         g.t2.f[i]=input_fri();
+          ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:89:9: error: incompatible types when returning type 'int' but 'game {aka struct Game}' was expected
+  return g;
+         ^
+Compilation finished at 12/19/2023, 2:54:41 PM
+Compilation started at 12/19/2023, 2:54:52 PM
+Compilation finished at 12/19/2023, 2:54:53 PM
+Compilation started at 12/19/2023, 3:02:30 PM
+Compilation finished at 12/19/2023, 3:02:30 PM
+Compilation started at 12/19/2023, 3:03:49 PM
+Compilation finished at 12/19/2023, 3:03:49 PM
+Compilation started at 12/19/2023, 3:05:41 PM
+Compilation finished at 12/19/2023, 3:05:42 PM
+Compilation started at 12/19/2023, 3:07:09 PM
+Compilation finished at 12/19/2023, 3:07:09 PM
+Compilation started at 12/19/2023, 3:09:48 PM
+Compilation finished at 12/19/2023, 3:09:48 PM
+Compilation started at 12/19/2023, 3:13:20 PM
+Compilation finished at 12/19/2023, 3:13:20 PM
+Compilation started at 12/19/2023, 3:13:33 PM
+Compilation finished at 12/19/2023, 3:13:33 PM
+Compilation started at 12/19/2023, 3:15:22 PM
+Compilation finished at 12/19/2023, 3:15:22 PM
+Compilation started at 12/19/2023, 3:16:30 PM
+Compilation finished at 12/19/2023, 3:16:30 PM
+Compilation started at 12/19/2023, 3:17:26 PM
+Compilation finished at 12/19/2023, 3:17:26 PM
+Compilation started at 12/19/2023, 3:17:34 PM
+Compilation finished at 12/19/2023, 3:17:34 PM
+Compilation started at 12/19/2023, 3:35:13 PM
+Compilation finished at 12/19/2023, 3:35:13 PM
+Compilation started at 12/19/2023, 3:37:02 PM
+Compilation finished at 12/19/2023, 3:37:03 PM
+Compilation started at 12/19/2023, 3:40:43 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'ftostring':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:55:17: warning: passing argument 1 of 'sprintf' makes pointer from integer without a cast [-Wint-conversion]
+         sprintf(str,"Name=%s, Height=%f, Integrity=%d, Interest=%d, Ability=%d, Discipline=%d",g.t1.f[i].name,g.t1.f[i].height,g.t1.f[i].integrity,g.t1.f[i].interest,g.t1.f[i].ability,g.t1.f[i].discipline);
+                 ^~~
+In file included from c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:1:0:
+c:\mingw\include\stdio.h:455:38: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int sprintf (char *, const char *, ...);
+                                      ^~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:56:14: warning: passing argument 1 of 'puts' makes pointer from integer without a cast [-Wint-conversion]
+         puts(str);
+              ^~~
+In file included from c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:1:0:
+c:\mingw\include\stdio.h:677:41: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    puts (const char *);
+                                         ^~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'main':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:66:14: warning: passing argument 2 of 'ftostring' makes integer from pointer without a cast [-Wint-conversion]
+  ftostring(g,str);
+              ^~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:51:6: note: expected 'char' but argument is of type 'char *'
+ void ftostring(game g, char str)
+      ^~~~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:67:2: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+  print("%99s",str);
+  ^~~~~
+C:\Users\adity\AppData\Local\Temp\ccCJA1ya.o: In function `main':
+c:/Users/adity/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Adi5424k/fpc-advanced-tee/problem3.c:67: undefined reference to `print'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 3:40:43 PM
+Compilation started at 12/19/2023, 3:40:52 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'ftostring':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:55:17: warning: passing argument 1 of 'sprintf' makes pointer from integer without a cast [-Wint-conversion]
+         sprintf(str,"Name=%s, Height=%f, Integrity=%d, Interest=%d, Ability=%d, Discipline=%d",g.t1.f[i].name,g.t1.f[i].height,g.t1.f[i].integrity,g.t1.f[i].interest,g.t1.f[i].ability,g.t1.f[i].discipline);
+                 ^~~
+In file included from c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:1:0:
+c:\mingw\include\stdio.h:455:38: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int sprintf (char *, const char *, ...);
+                                      ^~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:56:14: warning: passing argument 1 of 'puts' makes pointer from integer without a cast [-Wint-conversion]
+         puts(str);
+              ^~~
+In file included from c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:1:0:
+c:\mingw\include\stdio.h:677:41: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    puts (const char *);
+                                         ^~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'main':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:66:14: warning: passing argument 2 of 'ftostring' makes integer from pointer without a cast [-Wint-conversion]
+  ftostring(g,str);
+              ^~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:51:6: note: expected 'char' but argument is of type 'char *'
+ void ftostring(game g, char str)
+      ^~~~~~~~~
+Compilation finished at 12/19/2023, 3:40:53 PM
+Compilation started at 12/19/2023, 3:41:11 PM
+Compilation finished at 12/19/2023, 3:41:11 PM
+Compilation started at 12/19/2023, 3:42:59 PM
+Compilation finished at 12/19/2023, 3:42:59 PM
+Compilation started at 12/19/2023, 3:44:30 PM
+Compilation finished at 12/19/2023, 3:44:30 PM
+Compilation started at 12/19/2023, 3:45:48 PM
+Compilation finished at 12/19/2023, 3:45:49 PM
+Compilation started at 12/19/2023, 3:47:53 PM
+Compilation finished at 12/19/2023, 3:47:53 PM
+Compilation started at 12/19/2023, 3:48:48 PM
+Compilation finished at 12/19/2023, 3:48:48 PM
+Compilation started at 12/19/2023, 3:49:07 PM
+Compilation finished at 12/19/2023, 3:49:08 PM
+Compilation started at 12/19/2023, 3:49:58 PM
+Compilation finished at 12/19/2023, 3:49:59 PM
+Compilation started at 12/19/2023, 3:50:28 PM
+Compilation finished at 12/19/2023, 3:50:29 PM
+Compilation started at 12/19/2023, 3:50:57 PM
+Compilation finished at 12/19/2023, 3:50:57 PM
+Compilation started at 12/19/2023, 3:51:28 PM
+Compilation finished at 12/19/2023, 3:51:28 PM
+Compilation started at 12/19/2023, 3:51:55 PM
+Compilation finished at 12/19/2023, 3:51:55 PM
+Compilation started at 12/19/2023, 3:52:26 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'ftostring':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:55:17: warning: passing argument 1 of 'sprintf' makes pointer from integer without a cast [-Wint-conversion]
+         sprintf(str[i],"Name=%s, Height=%f, Integrity=%d, Interest=%d, Ability=%d, Discipline=%d",g.t1.f[i].name,g.t1.f[i].height,g.t1.f[i].integrity,g.t1.f[i].interest,g.t1.f[i].ability,g.t1.f[i].discipline);
+                 ^~~
+In file included from c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:1:0:
+c:\mingw\include\stdio.h:455:38: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int sprintf (char *, const char *, ...);
+                                      ^~~~~~~
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:56:14: warning: passing argument 1 of 'puts' makes pointer from integer without a cast [-Wint-conversion]
+         puts(str[i]);
+              ^~~
+In file included from c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:1:0:
+c:\mingw\include\stdio.h:677:41: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    puts (const char *);
+                                         ^~~~
+Compilation finished at 12/19/2023, 3:52:27 PM
+Compilation started at 12/19/2023, 3:52:44 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'ftostring':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:55:17: warning: passing argument 1 of 'sprintf' makes pointer from integer without a cast [-Wint-conversion]
+         sprintf(str[i],"Name=%s, Height=%f, Integrity=%d, Interest=%d, Ability=%d, Discipline=%d",g.t1.f[i].name,g.t1.f[i].height,g.t1.f[i].integrity,g.t1.f[i].interest,g.t1.f[i].ability,g.t1.f[i].discipline);
+                 ^~~
+In file included from c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:1:0:
+c:\mingw\include\stdio.h:455:38: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int sprintf (char *, const char *, ...);
+                                      ^~~~~~~
+Compilation finished at 12/19/2023, 3:52:44 PM
+Compilation started at 12/19/2023, 4:02:44 PM
+Compilation finished at 12/19/2023, 4:02:45 PM
+Compilation started at 12/19/2023, 4:03:42 PM
+Compilation finished at 12/19/2023, 4:03:42 PM
+Compilation started at 12/19/2023, 4:03:51 PM
+Compilation finished at 12/19/2023, 4:03:51 PM
+Compilation started at 12/19/2023, 4:04:22 PM
+Compilation finished at 12/19/2023, 4:04:22 PM
+Compilation started at 12/19/2023, 4:08:00 PM
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c: In function 'main':
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:76:12: error: incompatible type for argument 1 of 'ftostring'
+  ftostring(g.t1.f[0].name,str);
+            ^
+c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:54:6: note: expected 'fritacole {aka struct Fritacole}' but argument is of type 'char *'
+ void ftostring(fritacole f, char str[100])
+      ^~~~~~~~~
+Compilation finished at 12/19/2023, 4:08:01 PM
+Compilation started at 12/19/2023, 4:09:55 PM
+Compilation finished at 12/19/2023, 4:09:55 PM
+Compilation started at 12/19/2023, 4:15:38 PM
+Compilation finished at 12/19/2023, 4:15:38 PM
+Compilation started at 12/19/2023, 4:16:46 PM
+Compilation finished at 12/19/2023, 4:16:47 PM
+Compilation started at 12/19/2023, 4:20:47 PM
+Compilation finished at 12/19/2023, 4:20:47 PM
+Compilation started at 12/19/2023, 4:22:29 PM
+Compilation finished at 12/19/2023, 4:22:29 PM
+Compilation started at 12/19/2023, 4:25:27 PM
+Compilation finished at 12/19/2023, 4:25:27 PM
+Compilation started at 12/19/2023, 4:27:23 PM
+Compilation finished at 12/19/2023, 4:27:23 PM

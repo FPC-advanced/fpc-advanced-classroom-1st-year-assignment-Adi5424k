@@ -1,0 +1,34 @@
++b 86
+Breakpoint 1 at 0x4016e2: file c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c, line 86.
++r
+Starting program: c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee/./problem3.exe 
+[New Thread 7460.0x3368]
+[New Thread 7460.0x3454]
+
+Breakpoint 1, input_team (t=...)
+    at c:\Users\adity\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Adi5424k\fpc-advanced-tee\problem3.c:86
+86	    for(int i=0;i<t.players;i++)
++print t.players
+$1 = 4
++n
+88	       	printf("Fritacole no. %d\n",i+1);
++n
+89	       	t.f[i]=input_fri();
++n
+86	    for(int i=0;i<t.players;i++)
++n
+88	       	printf("Fritacole no. %d\n",i+1);
++n
+89	       	t.f[i]=input_fri();
++n
+[New Thread 7460.0x2f78]
+
+Program received signal SIGINT, Interrupt.
+[Switching to Thread 7460.0x2f78]
+0x768f807c in KERNELBASE!CtrlRoutine () from C:\Windows\SysWOW64\KernelBase.dll
++q
+A debugging session is active.
+
+	Inferior 1 [process 7460] will be killed.
+
+Quit anyway? (y or n) 
