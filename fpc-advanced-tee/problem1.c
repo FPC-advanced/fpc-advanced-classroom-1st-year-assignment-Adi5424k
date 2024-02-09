@@ -29,7 +29,7 @@ int check_fact(int x)
 	}
 	else
 	{
-	for(int i=2;i<=x,k<x;i++)
+	for(int i=2;k<x;i++)
 	{
 		k*=i;
 		if(k==x)
